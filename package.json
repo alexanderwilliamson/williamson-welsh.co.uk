@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "williamson-welsh",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Alex and Jess' Wedding Website",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -14,8 +14,10 @@
   },
   "dependencies": {
     "gatsby": "^2.13.45",
+    "gatsby-plugin-react-helmet": "^3.1.3",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1"
   },
   "devDependencies": {
     "prettier": "^1.18.2"

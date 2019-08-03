@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "Dalmatins";
+  src: url("../fonts/Dalmatins.eot");
+  src: url("../fonts/Dalmatins.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Dalmatins.svg#Dalmatins") format("svg"),
+    url("../fonts/Dalmatins.ttf") format("truetype"),
+    url("../fonts/Dalmatins.woff") format("woff"),
+    url("../fonts/Dalmatins.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RobotoRegular";
+  src: url("../fonts/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RobotoRegular.svg#RobotoRegular") format("svg"),
+    url("../fonts/RobotoRegular.ttf") format("truetype"),
+    url("../fonts/RobotoRegular.woff") format("woff"),
+    url("../fonts/RobotoRegular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+html {
+  background: #fff url("/assets/images/top-flowers-white-background.jpg")
+    no-repeat top center;
+  font-family: RobotoRegular;
+}
+
+section {
+  clear: both;
+  padding: 20px 10px 40px 10px;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 100px;
+  margin: 20px 0px 50px 0px;
+  font-family: Dalmatins;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 96px;
+  margin: 15px 0 15px 0;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 64px;
+  margin: 15px 0 15px 0;
+}
+
+blockquote {
+  text-align: left;
+  padding-left: 10px;
+  border-left: 1px solid rgba(116, 181, 96, 0.8);
+}
+
+a:link,
+a:active,
+a:hover,
+a:visited {
+  color: rgba(116, 181, 96, 0.8);
+}
+
+a.rsvp {
+  color: white;
+  text-decoration: none;
+  background-color: rgba(116, 181, 96, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.container {
+}
+
+section {
+  clear: both;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* our-day */
+
+.our-day {
+  background-color: rgba(116, 181, 96, 0.8);
+  color: #fff;
+  padding-top: 40px;
+}
+
+.our-day a:link,
+.our-day a:active,
+.our-day a:hover,
+.our-day a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* the-details */
+
+.the-details {
+  background-color: rgba(116, 181, 96, 0.4);
+  color: #fff;
+  padding-top: 40px;
+}
+
+.the-details a:link,
+.the-details a:active,
+.the-details a:hover,
+.the-details a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.save-the-date {
+  padding-top: 3em;
+  padding-bottom: 2em;
+}
+
+.save-the-date img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.capital-font {
+  text-transform: uppercase;
+}
+
+.timeline ul,
+.timeline ul li {
+  margin: 0px;
+  padding: 0px;
+}
+
+.timeline ul {
+  list-style: none;
+}
+
+.timeline li {
+  text-align: left;
+}
+
+.timeline h3,
+.timeline h4 {
+  margin: 0;
+  padding: 0;
+}

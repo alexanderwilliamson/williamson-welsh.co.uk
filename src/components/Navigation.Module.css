@@ -1,0 +1,27 @@
+nav {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+nav.hidden {
+  visibility: hidden;
+}
+
+nav ul {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+}
