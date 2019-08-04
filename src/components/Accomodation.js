@@ -23,10 +23,10 @@ class Accomodation extends React.Component {
           The weekend of our wedding is{" "}
           <a href="https://hatfair.co.uk">Winchester Hat Fair</a> so town will
           be busy and accommodation will get booked up quickly. If you want to
-          stay in Winchester on Friday night, there will be an amazing
-          atmosphere with music and street performers!
+          stay in Winchester on Friday night there will be an amazing atmosphere
+          with music and street performers!
         </p>
-        <h2>Hotels in Winchester</h2>
+        <h2>Winchester Hotels</h2>
         <div className="hotel">
           <h3>
             <a href="https://www.travelodge.co.uk/hotels/660/Winchester-hotel">
