@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 class Accomodation extends React.Component {
   render() {
@@ -27,7 +26,7 @@ class Accomodation extends React.Component {
           stay in Winchester on Friday night, there will be an amazing
           atmosphere with music and street performers!
         </p>
-        <h2>Winchester Hotels</h2>
+        <h2>Hotels in Winchester</h2>
         <div className="hotel">
           <h3>
             <a href="https://www.travelodge.co.uk/hotels/660/Winchester-hotel">

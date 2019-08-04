@@ -38,24 +38,40 @@ section {
   padding: 20px 10px 40px 10px;
 }
 
+h1,
+h2 {
+  font-family: Dalmatins;
+  text-align: center;
+}
+
 h1 {
   font-size: 32px;
   line-height: 100px;
-  margin: 20px 0px 50px 0px;
-  font-family: Dalmatins;
-  text-align: center;
+  padding: 20px 0px 10px 0px;
 }
 
 h2 {
   font-size: 24px;
   line-height: 96px;
-  margin: 15px 0 15px 0;
+  padding: 15px 0 15px 0;
 }
 
 h3 {
   font-size: 20px;
   line-height: 64px;
-  margin: 15px 0 15px 0;
+  padding: 15px 0 5px 0;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 18px;
+  }
 }
 
 blockquote {

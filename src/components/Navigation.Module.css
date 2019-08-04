@@ -1,22 +1,27 @@
 nav {
+  background: white;
   position: fixed;
   top: 0;
   z-index: 100;
   width: 100%;
 }
 
-nav.hidden {
-  visibility: hidden;
+nav div.hamburger {
+  display: block;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  height: 2em;
+  width: 2em;
 }
 
 nav ul {
-  background-color: white;
+  display: none;
+}
+
+nav ul.opened {
   display: flex;
-  flex-direction: row;
-  align-content: space-between;
-  justify-content: center;
-  padding: 0px;
-  margin: 0px;
+  flex-direction: column;
 }
 
 nav ul li {
@@ -24,4 +29,30 @@ nav ul li {
   display: inline-block;
   padding: 10px;
   text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  nav div.hamburger {
+    display: none;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav ul.scrollingUpwards {
+    display: flex;
+
+    align-content: space-between;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+  }
 }

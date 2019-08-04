@@ -1,13 +1,16 @@
 import React from "react"
 import "./Navigation.Module.css"
 import Monogram from "../images/monogram.png"
+import Close from "../images/twotone-close-24px.svg"
+import Menu from "../images/twotone-menu-24px.svg"
 
 class Navigation extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      offset: window.pageYOffset,
-      visible: false,
+      lastOffset: 0,
+      scrollingUpwards: false,
+      opened: false,
     }
   }
 
@@ -19,28 +22,45 @@ class Navigation extends React.Component {
     window.removeEventListener("scroll", this.handleScroll)
   }
 
-  handleScroll = () => {
-    const { offset } = this.state
-
-    const currentScrollPos = window.pageYOffset
-    const visible = window.pageYOffset > 0 && offset > currentScrollPos
-
+  toggle = () => {
     this.setState({
-      offset: currentScrollPos,
-      visible,
+      lastOffset: window.pageYOffset,
+      scrollingUpwards: this.state.scrollingUpwards,
+      opened: !this.state.opened,
+    })
+  }
+
+  handleScroll = () => {
+    const { lastOffset } = this.state
+    const currentScrollPos = window.pageYOffset
+    const scrollingUpwards =
+      window.pageYOffset > 0 && lastOffset > currentScrollPos
+    this.setState({
+      lastOffset: currentScrollPos,
+      scrollingUpwards: scrollingUpwards,
+      opened: this.state.opened,
     })
   }
 
   render() {
-    console.log(this.state)
-    const className = this.state.visible ? "" : "hidden"
+    const hamburgerImage = this.state.opened ? Close : Menu
+    var className = this.state.scrollingUpwards ? "scrollingUpwards" : ""
+    className += this.state.opened ? " opened" : ""
 
     return (
-      <nav className={className}>
-        <ul>
+      <nav id="top">
+        <div className="hamburger">
+          <img
+            alt="Menu"
+            src={hamburgerImage}
+            onClick={this.toggle}
+            width="100%"
+          />
+        </div>
+        <ul className={className}>
           <li>
-            <a href="#">
-              <img src={Monogram} height="100%" />
+            <a href="#top">
+              <img alt="Logo" src={Monogram} height="100%" />
             </a>
           </li>
           <li>

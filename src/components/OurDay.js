@@ -81,7 +81,7 @@ class OurDay extends React.Component {
           </p>
         </section>
         <section>
-          <h2>The morning after</h2>
+          <h2>Sunday Morning</h2>
           <address>
             The Greyhound on The Test, 31 High Street, Stockbridge, SO20 6EY
           </address>

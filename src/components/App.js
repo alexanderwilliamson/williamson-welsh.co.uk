@@ -17,8 +17,8 @@ class App extends React.Component {
         <Hero />
         <Carousel />
         <OurDay />
-        <Accomodation />
         <Transport />
+        <Accomodation />
         <GiftList />
       </React.Fragment>
     )
