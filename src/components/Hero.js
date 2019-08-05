@@ -12,7 +12,7 @@ class Hero extends React.Component {
         <div className="capital-font">
           <p>Saturday 4th July 2020</p>
         </div>
-        <a title="RSVP" href="https://forms.gle/gtgeemZCV1WkAkrRA">
+        <a title="RSVP" href="https://forms.gle/5BkGPZpdp1tx8wZa8">
           RSVP
         </a>
       </section>

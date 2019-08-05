@@ -3,7 +3,7 @@ import React from "react"
 class GiftList extends React.Component {
   render() {
     return (
-      <section>
+      <section id="gift-list">
         <h1>Gift List</h1>
         <p>
           Having you at our wedding is the most important thing to us, so please

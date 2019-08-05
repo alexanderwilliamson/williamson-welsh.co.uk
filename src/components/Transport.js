@@ -3,7 +3,7 @@ import React from "react"
 class Accomodation extends React.Component {
   render() {
     return (
-      <section>
+      <section id="transport">
         <h1>Transport</h1>
         <p>
           Please arrange your own transport between the church and Houghton

@@ -4,7 +4,7 @@ class OurDay extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <section>
+        <section id="our-day">
           <h1>Our Day</h1>
           <p>
             We can’t wait to see you on our wedding day! Here’s some details to

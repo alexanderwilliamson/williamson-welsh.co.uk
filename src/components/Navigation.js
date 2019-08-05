@@ -54,7 +54,7 @@ class Navigation extends React.Component {
         </div>
         <ul className={className}>
           <li>
-            <a href="#top">
+            <a href="#top" title="Jump to top of page">
               <img
                 className="gold-monogram"
                 alt="Logo"
@@ -64,19 +64,33 @@ class Navigation extends React.Component {
             </a>
           </li>
           <li>
-            <a href="#ourday">Our day</a>
+            <a href="#our-day" title="Jump to Our Day">
+              Our day
+            </a>
           </li>
           <li>
-            <a href="#accomodation">Accomodation</a>
+            <a href="#accomodation" title="Jump to Accomodation">
+              Accomodation
+            </a>
           </li>
           <li>
-            <a href="#transport">Transport</a>
+            <a href="#transport" title="Jump to Transport">
+              Transport
+            </a>
           </li>
           <li>
-            <a href="#giftlist">Gift List</a>
+            <a href="#gift-list" title="Jump to Gift List">
+              Gift List
+            </a>
           </li>
           <li>
-            <a href="#rsvp">RSVP</a>
+            <a
+              href="https://forms.gle/5BkGPZpdp1tx8wZa8"
+              title="Respond to our RSVP"
+              className="rsvp-button"
+            >
+              RSVP
+            </a>
           </li>
         </ul>
       </nav>
