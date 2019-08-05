@@ -1,4 +1,5 @@
 import React from "react"
+import "./GiftList.Module.css"
 
 class GiftList extends React.Component {
   render() {
@@ -15,9 +16,9 @@ class GiftList extends React.Component {
           have a home together there is very little we need and a contribution
           towards our honeymoon would be very much appreciated.
         </p>
-        <p>
+        <p className="center-text">
           <a
-            className="rsvp"
+            className="gift-list"
             href="http://example.com"
             title="Alex and Jess' Gift List"
           >

@@ -1,4 +1,5 @@
 import React from "react"
+import "./OurDay.Module.css"
 
 class OurDay extends React.Component {
   render() {
@@ -76,9 +77,13 @@ class OurDay extends React.Component {
         </section>
         <section>
           <h2>The Afterparty</h2>
-          <address>
-            The Greyhound on The Test, 31 High Street, Stockbridge, SO20 6EY
-          </address>
+          <p>
+            <a href="https://goo.gl/maps/Vf7rGHqQ5t3UQR1i6" title="Google Maps">
+              <address>
+                The Greyhound on The Test, 31 High Street, Stockbridge, SO20 6EY
+              </address>
+            </a>
+          </p>
           <h3>Midnight - Buses to Stockbridge</h3>
           <p>
             We will be arranging transport from Houghton Lodge Gardens to The

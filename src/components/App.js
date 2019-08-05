@@ -6,6 +6,7 @@ import Accomodation from "./Accomodation"
 import Transport from "./Transport"
 import GiftList from "./GiftList"
 import Hero from "./Hero"
+import Footer from "./Footer"
 import "../../static/normalize.css"
 import "./App.Module.css"
 
@@ -20,6 +21,7 @@ class App extends React.Component {
         <Transport />
         <Accomodation />
         <GiftList />
+        <Footer />
       </React.Fragment>
     )
   }

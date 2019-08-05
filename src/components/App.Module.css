@@ -104,17 +104,6 @@ a:visited {
   color: rgba(116, 181, 96, 0.8);
 }
 
-a.rsvp {
-  color: white;
-  text-decoration: none;
-  background-color: rgba(116, 181, 96, 0.8);
-  padding: 10px;
-  border-radius: 10px;
-}
-
-.container {
-}
-
 section {
   clear: both;
   max-width: 700px;

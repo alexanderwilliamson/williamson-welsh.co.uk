@@ -1,0 +1,8 @@
+address {
+  padding-left: 1.5em;
+  background-image: url("../images/outline-location_on-24px.svg");
+  background-position: left middle;
+  background-repeat: no-repeat;
+  background-size: 1em;
+  min-height: 1em;
+}
