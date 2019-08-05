@@ -1,6 +1,6 @@
 import React from "react"
 import "./Navigation.Module.css"
-import Monogram from "../images/monogram.png"
+import Monogram from "../images/gold-monogram.png"
 import Close from "../images/twotone-close-24px.svg"
 import Menu from "../images/twotone-menu-24px.svg"
 
@@ -50,17 +50,12 @@ class Navigation extends React.Component {
     return (
       <nav id="top">
         <div className="hamburger">
-          <img
-            alt="Menu"
-            src={hamburgerImage}
-            onClick={this.toggle}
-            width="100%"
-          />
+          <img alt="Menu" src={hamburgerImage} onClick={this.toggle} />
         </div>
         <ul className={className}>
           <li>
             <a href="#top">
-              <img alt="Logo" src={Monogram} height="100%" />
+              <img alt="Logo" src={Monogram} height="80" />
             </a>
           </li>
           <li>

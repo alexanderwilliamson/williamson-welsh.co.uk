@@ -32,27 +32,21 @@ nav ul li {
 }
 
 @media screen and (min-width: 600px) {
-  nav div.hamburger {
-    display: none;
-  }
-
+  nav div.hamburger,
   nav ul {
     display: none;
   }
 
   nav ul.scrollingUpwards {
-    display: flex;
-
-    align-content: space-between;
     justify-content: center;
+    display: flex;
     padding: 0px;
     margin: 0px;
   }
 
   nav ul li {
     list-style-type: none;
-    display: inline-block;
-    padding: 10px;
-    text-align: center;
+    line-height: 80px;
+    padding: 0 10px 0 10px;
   }
 }
