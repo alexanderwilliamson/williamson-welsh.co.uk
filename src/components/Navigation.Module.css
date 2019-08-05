@@ -32,6 +32,11 @@ nav ul li {
 }
 
 @media screen and (min-width: 600px) {
+  nav ul.opened {
+    display: none;
+    flex-direction: column;
+  }
+
   nav div.hamburger,
   nav ul {
     display: none;
@@ -40,13 +45,20 @@ nav ul li {
   nav ul.scrollingUpwards {
     justify-content: center;
     display: flex;
+    flex-direction: row;
     padding: 0px;
     margin: 0px;
   }
 
   nav ul li {
+    display: inline-block;
+    height: 100px;
     list-style-type: none;
-    line-height: 80px;
+    line-height: 100px;
     padding: 0 10px 0 10px;
+  }
+
+  img.gold-monogram {
+    margin: 10px 0px 10px 0px;
   }
 }

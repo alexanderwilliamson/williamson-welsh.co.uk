@@ -55,7 +55,12 @@ class Navigation extends React.Component {
         <ul className={className}>
           <li>
             <a href="#top">
-              <img alt="Logo" src={Monogram} height="80" />
+              <img
+                className="gold-monogram"
+                alt="Logo"
+                src={Monogram}
+                height="80"
+              />
             </a>
           </li>
           <li>
