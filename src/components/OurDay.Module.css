@@ -1,3 +1,18 @@
+.our-day-flexbox {
+  display: flex;
+  align-items: center;
+}
+
+.our-day-flowers {
+  margin-right: auto;
+  width: 100%;
+  max-width: 300px;
+}
+
+.our-day-pull-right {
+  padding-left: 40px;
+}
+
 address {
   padding-left: 1.5em;
   background-image: url("../images/outline-location_on-24px.svg");
@@ -5,4 +20,58 @@ address {
   background-repeat: no-repeat;
   background-size: 1em;
   min-height: 1em;
+  flex: 1;
+}
+
+address a:link,
+address a:visited,
+address a:active {
+  color: #999;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+}
+
+#our-day p {
+  overflow: hidden;
+  padding: 0px 0px 0px 0px;
+  margin: 5px 0px 15px 0px;
+}
+
+#our-day li {
+  padding-bottom: 1em;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 3px solid rgba(116, 181, 96, 0.5);
+  margin: 50px auto;
+  padding: 0;
+  width: 60%;
+}
+
+#our-day h2,
+#our-day h3 {
+  text-align: left;
+  font-family: "Open Sans";
+  padding: 10px 10px 10px 0px;
+  margin: 0;
+  font-size: 24px;
+  line-height: initial;
+}
+
+#our-day h2 {
+  color: rgba(116, 181, 96, 0.8);
+  text-transform: uppercase;
+}
+
+#our-day h2:nth-of-type(1n + 2) {
+  margin-top: 50px;
+}
+
+#our-day h3 {
+  margin-top: 15px;
+  padding: 0px;
 }

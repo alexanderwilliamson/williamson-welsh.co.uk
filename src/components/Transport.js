@@ -9,7 +9,7 @@ class Accomodation extends React.Component {
           <div className="transport-inner">
             <h1>Transport</h1>
             <p>
-              Please arrange your own transport between the church and Houghton
+              Please arrange your fown transport between the church and Houghton
               Lodge Gardens.
             </p>
             <p>
