@@ -4,6 +4,11 @@ nav {
   top: 0;
   z-index: 100;
   width: 100%;
+  text-transform: uppercase;
+}
+
+nav a {
+  text-decoration: none;
 }
 
 nav div.hamburger {
@@ -34,9 +39,10 @@ nav ul li {
 a.rsvp-button {
   color: white !important;
   background-color: rgba(116, 181, 96, 0.8);
-  border-radius: 4px;
-  padding: 5px;
+  border-radius: 5px;
+  padding: 10px 15px 10px 15px;
   text-decoration: none;
+  line-height: 200%;
 }
 
 a.rsvp-button:hover {
@@ -44,14 +50,6 @@ a.rsvp-button:hover {
 }
 
 @media screen and (min-width: 600px) {
-  nav {
-    text-transform: uppercase;
-  }
-
-  nav a {
-    text-decoration: none;
-  }
-
   nav ul.opened {
     display: none;
     flex-direction: column;
@@ -65,7 +63,7 @@ a.rsvp-button:hover {
   nav ul.scrollingUpwards {
     display: flex;
     flex-direction: row;
-    padding: 0px;
+    padding: 0 20px 0 0;
     margin: 0px;
   }
 

@@ -41,12 +41,12 @@ class Carousel extends React.Component {
 
   render() {
     const { imageName } = this.state
-    let onChange = this.change
+    const { change } = this
     const items = this.images.map(function(item, key) {
       var className = "thumbnail-image"
       className += imageName === item ? " thumbnail-active" : ""
       return (
-        <div key={key} className={className} onClick={() => onChange(item)}>
+        <div key={key} className={className} onClick={() => change(item)}>
           <Image
             imageName={item}
             height="30"
