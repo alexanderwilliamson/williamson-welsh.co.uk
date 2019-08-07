@@ -31,6 +31,18 @@ nav ul li {
   text-align: center;
 }
 
+a.rsvp-button {
+  color: white !important;
+  background-color: rgba(116, 181, 96, 0.8);
+  border-radius: 4px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+a.rsvp-button:hover {
+  background-color: rgba(116, 181, 96);
+}
+
 @media screen and (min-width: 600px) {
   nav {
     text-transform: uppercase;
@@ -67,12 +79,6 @@ nav ul li {
 
   img.gold-monogram {
     margin: 10px 0px 10px 0px;
-  }
-
-  .rsvp-button {
-    border: 1px solid rgba(116, 181, 96, 0.8);
-    border-radius: 4px;
-    padding: 5px;
   }
 
   .push-right {
