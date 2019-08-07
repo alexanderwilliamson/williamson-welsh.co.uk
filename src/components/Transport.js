@@ -4,7 +4,7 @@ import "./Transport.Module.css"
 class Accomodation extends React.Component {
   render() {
     return (
-      <section>
+      <section id="transport">
         <div className="transport-outer">
           <div className="transport-inner">
             <h1>Transport</h1>
