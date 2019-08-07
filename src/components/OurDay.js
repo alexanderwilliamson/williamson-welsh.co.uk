@@ -23,14 +23,11 @@ class OurDay extends React.Component {
             clothing and wet weather gear if needed!
           </p>
           <p>
-            We’d also love it if you could please bring along a
-            <strong> coconut</strong> to our reception!
+            <strong>
+              We’d also love it if you could please bring along a coconut to our
+              reception!
+            </strong>
           </p>
-          <p>If you need to contact anyone on the day please call:</p>
-          <ul>
-            <li>Simon Welsh (brother of the bride): TODO</li>
-            <li>Chris Dove (Usher): TODO</li>
-          </ul>
         </section>
         <section>
           <h2>The Church</h2>
@@ -80,7 +77,7 @@ class OurDay extends React.Component {
           <p>
             We will be arranging transport from Houghton Lodge Gardens to The
             Greyhound on the Test for the afterparty. Stockbridge is mainly all
-            set back from a highstreet and all suggested accommodation is
+            set back from a high street and all suggested accommodation is
             walkable from the drop off point. Please let us know in your RSVP if
             you would like a seat on the bus!
           </p>
