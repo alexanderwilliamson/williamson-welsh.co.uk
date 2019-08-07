@@ -38,14 +38,20 @@ class Carousel extends React.Component {
       className += imageName === item ? " thumbnail-active" : ""
       return (
         <div key={key} className={className} onClick={() => onChange(item)}>
-          <Image imageName={item} height="30" width="30" draggable={false} />
+          <Image
+            imageName={item}
+            height="30"
+            width="30"
+            draggable={false}
+            fluidOrFixed="fluid"
+          />
         </div>
       )
     })
     return (
       <section className="slideshow">
         <div onClick={this.next}>
-          <Image imageName={imageName} draggable={false} />
+          <Image imageName={imageName} draggable={false} fluidOrFixed="fluid" />
         </div>
         <div className="thumbnail-buttons">{items}</div>
       </section>

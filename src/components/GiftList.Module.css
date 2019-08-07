@@ -1,11 +1,43 @@
-a.gift-list {
+section#gift-list {
+  margin-top: 80px;
+}
+
+#gift-list .button-container {
+  line-height: 200%;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#gift-list a {
+  text-transform: uppercase;
   color: white !important;
   background-color: rgba(116, 181, 96, 0.8);
   border-radius: 4px;
-  padding: 5px;
+  padding: 10px;
   text-decoration: none;
 }
 
-a.gift-list:hover {
+#gift-list a:hover {
   background-color: rgba(116, 181, 96);
+}
+
+.gift-list-outer {
+  padding: 25px;
+  background: #27363d url("../images/blackground.jpg");
+  background-size: 100% 100%;
+}
+
+.gift-list-inner {
+  padding: 20px;
+  background-color: white;
+}
+
+.gift-list-flowers {
+  float: left;
+  position: relative;
+  z-index: 50;
+  top: -150px;
+  height: 100px;
+  text-align: center;
+  width: 100%;
 }
