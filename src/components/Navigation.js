@@ -63,7 +63,7 @@ class Navigation extends React.Component {
               />
             </a>
           </li>
-          <li>
+          <li className="push-right">
             <a href="#our-day" title="Jump to Our Day">
               Our day
             </a>
