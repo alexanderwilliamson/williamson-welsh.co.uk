@@ -6,7 +6,7 @@ const Image = ({ imageName, fluidOrFixed }) => {
   const data = useStaticQuery(graphql`
     fragment servicesImage on File {
       childImageSharp {
-        fluid(maxWidth: 700, maxHeight: 700, cropFocus: CENTER) {
+        fluid(maxWidth: 900, maxHeight: 900, cropFocus: CENTER) {
           ...GatsbyImageSharpFluid_tracedSVG
         }
       }
