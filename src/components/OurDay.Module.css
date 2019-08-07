@@ -10,7 +10,7 @@
 }
 
 .our-day-pull-right {
-  padding-left: 40px;
+  padding-left: 30px;
 }
 
 @media screen and (max-width: 600px) {
@@ -19,6 +19,9 @@
   }
   .our-day-flowers {
     display: none;
+  }
+  .our-day-pull-right {
+    padding-left: 0px;
   }
 }
 
