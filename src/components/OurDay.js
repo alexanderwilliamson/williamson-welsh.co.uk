@@ -40,20 +40,17 @@ class OurDay extends React.Component {
               Hampshire, SO23 9SD
             </a>
           </address>
-          <h3>12:45 - Arrival</h3>
+          <h3>1 o’clock - The ceremony</h3>
           <p>
-            There is plenty of parking on the field beside the church and this
-            will be signed from the main road.
-          </p>
-          <h3>1 o'clock - Our marriage ceremony</h3>
-          <p>
-            This will be around 1 hour long so it’s worth having a late
-            breakfast before you arrive!
+            Please arrive 15 minutes before the ceremony. There is plenty of
+            parking on the field beside the church and this will be signed from
+            the main road. It’s worth having brunch/lunch before you arrive as
+            the ceremony will be around 1 hour.
           </p>
           <p>
             After the ceremony, please make your own way to the reception venue.
-            You will drive through Stockbridge on your way so if you wanted to
-            quickly stop by and check into your hotel, please do.
+            You will drive through Stockbridge on your way so please feel free
+            to stop by your hotel to check in.
           </p>
         </section>
         <section>
@@ -63,28 +60,29 @@ class OurDay extends React.Component {
               Houghton Lodge Gardens, North Houghton, Stockbridge SO20 6LQ
             </a>
           </address>
-          <h3>3 o'clock onwards</h3>
+          <h3>3 o'clock</h3>
           <p>
-            There is allocated wedding parking which will be signed and is just
-            beyond the main entrance to Houghton Lodge Gardens. Please feel free
-            to leave your car here overnight and it will need to be collected by
-            10.30am Sunday.
+            After the church ceremony, reception drinks will be served as we
+            arrive at Houghton Lodge. There is allocated wedding parking which
+            will be signed and is located just beyond the main entrance to
+            Houghton Lodge Gardens. Please feel free to leave your car here
+            overnight if you’re able to collect it by 10.30am on Sunday.
           </p>
         </section>
         <section>
-          <h2>The Afterparty</h2>
+          <h2>Buses to Stockbridge</h2>
+          <h3>12 midnight</h3>
           <address>
             <a href="https://goo.gl/maps/Vf7rGHqQ5t3UQR1i6" title="Google Maps">
               The Greyhound on The Test, 31 High Street, Stockbridge, SO20 6EY
             </a>
           </address>
-          <h3>Midnight - Buses to Stockbridge</h3>
           <p>
             We will be arranging transport from Houghton Lodge Gardens to The
-            Greyhound on the Test for the afterparty. Stockbridge is pretty much
-            just a highstreet so most accomodation is walkable down the
-            highstreet from the pub. Please let us know on your RSVP if you
-            would like a seat on the bus!
+            Greyhound on the Test for the afterparty. Stockbridge is mainly all
+            set back from a highstreet and all suggested accommodation is
+            walkable from the drop off point. Please let us know in your RSVP if
+            you would like a seat on the bus!
           </p>
         </section>
         <section>
@@ -94,12 +92,11 @@ class OurDay extends React.Component {
               The Greyhound on The Test, 31 High Street, Stockbridge, SO20 6EY
             </a>
           </address>
-          <h3>Around 10 o’clock - A fond farewell!</h3>
+          <h3>Around 10 o’clock - Bacon butties and Bloody Marys</h3>
           <p>
-            We will be welcoming everyone who back to The Greyhound on The Test
-            the morning of the wedding if they’d like to join us for bloody
-            mary’s and bacon butties! We’ll plan to be there until the last
-            people leave!
+            We’d love you to join us in the Courtyard of The Greyhound on The
+            Test before you head off on Sunday morning. We’ll plan to stay
+            around until the last people leave!
           </p>
         </section>
       </React.Fragment>

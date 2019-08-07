@@ -4,3 +4,15 @@
     no-repeat;
   padding: 250px 0 80px 0;
 }
+
+.hero a.rsvp {
+  color: white !important;
+  background-color: rgba(116, 181, 96, 0.8);
+  border-radius: 4px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.hero a.rsvp:hover {
+  background-color: rgba(116, 181, 96);
+}

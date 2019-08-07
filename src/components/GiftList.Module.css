@@ -1,5 +1,11 @@
 a.gift-list {
-  border: 1px solid rgba(116, 181, 96, 0.8);
+  color: white !important;
+  background-color: rgba(116, 181, 96, 0.8);
   border-radius: 4px;
   padding: 5px;
+  text-decoration: none;
+}
+
+a.gift-list:hover {
+  background-color: rgba(116, 181, 96);
 }

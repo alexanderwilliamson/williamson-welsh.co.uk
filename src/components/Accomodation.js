@@ -30,7 +30,7 @@ class Accomodation extends React.Component {
         <div className="hotel">
           <h3>
             <a href="https://www.travelodge.co.uk/hotels/660/Winchester-hotel">
-              Travelodge Winchester
+              Travelodge
             </a>
           </h3>
           <p>From &pound;30 per night</p>
@@ -48,7 +48,7 @@ class Accomodation extends React.Component {
         <div className="hotel">
           <h3>
             <a href="https://www.accorhotels.com/gb/hotel-6619-mercure-winchester-wessex-hotel/index.shtml">
-              Travelodge Winchester
+              The Wessex Hotel (Mercure)
             </a>
           </h3>
           <p>From &pound;80 per night</p>
@@ -70,9 +70,8 @@ class Accomodation extends React.Component {
           </h3>
           <p>From &pound;140 per night</p>
           <p>
-            This is a little more upmarket but a little dated. Is is at the top
-            of the high street and is a more expensive central option with
-            parking.
+            This is a little more upmarket but a little dated. It is at the top
+            of the high street and is a central option with parking.
           </p>
           <ul>
             <li>2.1 miles from the church</li>
@@ -82,14 +81,14 @@ class Accomodation extends React.Component {
         <div className="hotel">
           <h3>
             <a href="https://www.thewinchesterhotel.co.uk">
-              The Winchester Hotel
+              The Winchester Hotel and Spa
             </a>
           </h3>
           <p>From &pound;150 per night</p>
           <p>
-            This is near the train station on the outskirts of town and is a
-            standard chain hotel. It has ample parking and will take you about
-            15 minutes to walk into the city center from here.
+            This is near the train station on the outskirts of town. It has
+            ample parking and will take you about 15 minutes to walk into the
+            city center from here.
           </p>
           <ul>
             <li>2.3 miles from the church</li>
@@ -104,8 +103,9 @@ class Accomodation extends React.Component {
           </h3>
           <p>From &pound;60 per night</p>
           <p>
-            This is quite a new hotel on the outskirts of town with free
-            parking. It is about a 20 minute walk into the city center.
+            This has been open a few years and has good reviews! It’s on the
+            outskirts of town with free parking. It will take you about 20
+            minutes to walk into the city center.
           </p>
           <ul>
             <li>2.3 miles from the church</li>
@@ -115,36 +115,19 @@ class Accomodation extends React.Component {
         <p>
           There is also a Hotel du Vin and some great pubs with rooms (Number 5
           Bridge Street, The Black Hole, The Westgate, the Wykeham Arms) if you
-          are after something a little more fun!
+          are after something a little more individual!
         </p>
         <h2>Stockbridge Hotels</h2>
         <p>
-          Stockbridge accommodation consists mainly of pubs with rooms but there
-          are also lots of B&amp;B’s not listed here. Anything along the high
-          street will be walkable from The Greyhound on the Test if you are
-          making the most of our bus! We’d love to have you all close by and see
-          you the next morning if you are staying in Stockbridge.
+          Stockbridge accommodation consists of mainly of pubs with rooms, but
+          there are also lots of B&amp;B’s that we haven’t listed. Anything
+          along the high street will be walkable from The Greyhound on the Test
+          if you are making the most of our bus at the end of the night!
         </p>
         <p>
           The road between Houghton Lodge Gardens and Stockbridge is not safe to
           walk, so please either book a seat on our bus or arrange a taxi.
         </p>
-        <div className="hotel">
-          <h3>
-            <a href="http://thegreyhoundonthetest.co.uk">
-              The Greyhound on The Test
-            </a>
-          </h3>
-          <p>From &pound;100 per night (10 rooms)</p>
-          <p>
-            The bridal party will be staying here and we’ll be in the garden
-            from 10am on Sunday morning for bacon butties and Bloody Marys.
-          </p>
-          <ul>
-            <li>10.8 miles from the church</li>
-            <li>1.6 miles from the reception venue</li>
-          </ul>
-        </div>
         <div className="hotel">
           <h3>
             <a href="http://thegreyhoundonthetest.co.uk?the-grosvenor-hotel">
@@ -153,11 +136,11 @@ class Accomodation extends React.Component {
           </h3>
           <p>From &pound;100 per night (28 rooms)</p>
           <p>
-            This has just undergone a large renovation and all rooms have been
+            This has just been completely renovated and all the rooms have been
             reserved for our guests. It is a 2 minute walk from The Greyhound on
-            The Test and has free parking. To book, please call Hayley on 01264
-            810833
+            The Test and has free parking.
           </p>
+          <p>To book, please call Hayley on 01264 810833</p>
           <ul>
             <li>10.7 miles from the church</li>
             <li>1.7 miles from the reception venue</li>
