@@ -1,5 +1,5 @@
 section#gift-list {
-  margin-top: 80px;
+  padding-top: 80px;
 }
 
 #gift-list .button-container {
@@ -37,7 +37,7 @@ section#gift-list {
   position: relative;
   z-index: 50;
   top: -150px;
-  height: 100px;
+  height: 50px;
   text-align: center;
   width: 100%;
 }
