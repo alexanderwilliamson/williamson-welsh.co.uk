@@ -99,9 +99,12 @@ blockquote {
 
 a:link,
 a:active,
-a:hover,
 a:visited {
   color: rgba(116, 181, 96, 0.8);
+}
+
+a:hover {
+  color: rgba(116, 181, 96);
 }
 
 section {
