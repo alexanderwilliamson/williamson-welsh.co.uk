@@ -27,7 +27,7 @@ class OurDay extends React.Component {
               <div className="our-day-pull-right">
                 <h1>Our Day</h1>
                 <p>
-                  We can’t wait to see you on our wedding day! Here’s some
+                  We can’t wait to see you on our wedding day! Here are some
                   details to help you plan.
                 </p>
                 <ul>
@@ -41,8 +41,8 @@ class OurDay extends React.Component {
                     At both the church and the evening venue there will be
                     uneven ground and grass so please bear this in mind when
                     choosing footwear. Our evening reception will also be under
-                    canvas so please bring warm clothing and wet weather gear if
-                    needed!
+                    canvas so please bring warm clothing and wet weather gear
+                    just in case.
                   </li>
                 </ul>
                 <p>
@@ -104,13 +104,15 @@ class OurDay extends React.Component {
               </a>
             </address>
             <h3>12 midnight</h3>
-
             <p>
               We will be arranging transport from Houghton Lodge Gardens to The
-              Greyhound on the Test for the afterparty. Stockbridge is mainly
-              all set back from a high street and all suggested accommodation is
-              walkable from the drop off point. Please let us know in your RSVP
-              if you would like a seat on the bus!
+              Greyhound on the Test for the afterparty.
+            </p>
+            <p>
+              Stockbridge has a central high street, and the majority of our
+              suggested accommodation is an easy walk from the drop-off point.
+              Please let us know in your RSVP if you would like a seat on the
+              bus!
             </p>
             <h2>Sunday Morning</h2>
             <address>
@@ -121,11 +123,12 @@ class OurDay extends React.Component {
                 The Greyhound on The Test, 31 High Street, Stockbridge, SO20 6EY
               </a>
             </address>
-            <h3>Around 10 o’clock - Bacon butties and Bloody Marys</h3>
+            <h3>Around 10 o’clock</h3>
             <p>
               We’d love you to join us in the Courtyard of The Greyhound on The
-              Test before you head off on Sunday morning. We’ll plan to stay
-              around until the last people leave!
+              Test for bacon butties and Bloody Marys before you head off on
+              Sunday morning. We’ll plan to stay around until the last people
+              leave!
             </p>
           </section>
         )}
