@@ -109,9 +109,16 @@ a:hover {
 
 section {
   clear: both;
-  max-width: 700px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (min-width: 1300px) {
+  section {
+    min-width: 1100px;
+    padding: 50px;
+  }
 }
 
 /* our-day */
@@ -158,10 +165,6 @@ section {
 .save-the-date img {
   max-width: 100%;
   max-height: 100%;
-}
-
-.capital-font {
-  text-transform: uppercase;
 }
 
 .timeline ul,

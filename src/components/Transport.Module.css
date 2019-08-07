@@ -1,7 +1,7 @@
 .transport-outer {
   padding: 25px;
-  background: #27363d url("../images/pattern-a-frame.jpg");
-  background-size: 100% 100%;
+  background: #27363d url("../images/pattern-a.jpg");
+  background-size: cover;
 }
 
 .transport-inner {
