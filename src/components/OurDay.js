@@ -34,14 +34,12 @@ class OurDay extends React.Component {
         </section>
         <section>
           <h2>The Church</h2>
-          <p>
+          <address>
             <a href="https://goo.gl/maps/RW8k8zF442CTwuYE7" title="Google Maps">
-              <address>
-                The Chapel at The Hospital of St.Cross, St.Cross Road,
-                Winchester, Hampshire, SO23 9SD
-              </address>
+              The Chapel at The Hospital of St.Cross, St.Cross Road, Winchester,
+              Hampshire, SO23 9SD
             </a>
-          </p>
+          </address>
           <h3>12:45 - Arrival</h3>
           <p>
             There is plenty of parking on the field beside the church and this
@@ -60,13 +58,11 @@ class OurDay extends React.Component {
         </section>
         <section>
           <h2>The Reception</h2>
-          <p>
+          <address>
             <a href="https://goo.gl/maps/LSr82yYs8Q6xNMXY7" title="Google Maps">
-              <address>
-                Houghton Lodge Gardens, North Houghton, Stockbridge SO20 6LQ
-              </address>
+              Houghton Lodge Gardens, North Houghton, Stockbridge SO20 6LQ
             </a>
-          </p>
+          </address>
           <h3>3 o'clock onwards</h3>
           <p>
             There is allocated wedding parking which will be signed and is just
@@ -77,13 +73,11 @@ class OurDay extends React.Component {
         </section>
         <section>
           <h2>The Afterparty</h2>
-          <p>
+          <address>
             <a href="https://goo.gl/maps/Vf7rGHqQ5t3UQR1i6" title="Google Maps">
-              <address>
-                The Greyhound on The Test, 31 High Street, Stockbridge, SO20 6EY
-              </address>
+              The Greyhound on The Test, 31 High Street, Stockbridge, SO20 6EY
             </a>
-          </p>
+          </address>
           <h3>Midnight - Buses to Stockbridge</h3>
           <p>
             We will be arranging transport from Houghton Lodge Gardens to The
@@ -95,13 +89,11 @@ class OurDay extends React.Component {
         </section>
         <section>
           <h2>Sunday Morning</h2>
-          <p>
+          <address>
             <a href="https://goo.gl/maps/Vf7rGHqQ5t3UQR1i6" title="Google Maps">
-              <address>
-                The Greyhound on The Test, 31 High Street, Stockbridge, SO20 6EY
-              </address>
+              The Greyhound on The Test, 31 High Street, Stockbridge, SO20 6EY
             </a>
-          </p>
+          </address>
           <h3>Around 10 o’clock - A fond farewell!</h3>
           <p>
             We will be welcoming everyone who back to The Greyhound on The Test
