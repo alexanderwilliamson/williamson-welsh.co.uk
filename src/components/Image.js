@@ -34,7 +34,7 @@ const Image = ({ imageName }) => {
     }
   `)
 
-  return <Img draggable="false" fluid={data[imageName].childImageSharp.fluid} />
+  return <Img fluid={data[imageName].childImageSharp.fluid} />
 }
 
 export default Image
