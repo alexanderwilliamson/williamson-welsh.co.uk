@@ -5,7 +5,16 @@ import "./Carousel.Module.css"
 class Carousel extends React.Component {
   constructor(props) {
     super(props)
-    this.images = ["zoom", "boat", "photo", "lounge", "booth"]
+    this.images = [
+      "zoom",
+      "boat",
+      "photo",
+      "lounge",
+      "booth",
+      "champagne",
+      "beauty",
+      "airport",
+    ]
     this.state = {
       imageName: this.images[this.getRandomInteger(0, this.images.length)],
     }

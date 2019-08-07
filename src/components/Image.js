@@ -31,6 +31,15 @@ const Image = ({ imageName, fluidOrFixed }) => {
       lounge: file(relativePath: { eq: "lounge.jpg" }) {
         ...servicesImage
       }
+      airport: file(relativePath: { eq: "airport.jpg" }) {
+        ...servicesImage
+      }
+      beauty: file(relativePath: { eq: "beauty.jpg" }) {
+        ...servicesImage
+      }
+      champagne: file(relativePath: { eq: "champagne.jpg" }) {
+        ...servicesImage
+      }
     }
   `)
 
