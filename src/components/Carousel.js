@@ -6,9 +6,9 @@ class Carousel extends React.Component {
   constructor(props) {
     super(props)
     this.images = [
+      "photo",
       "zoom",
       "boat",
-      "photo",
       "lounge",
       "booth",
       "champagne",
@@ -16,8 +16,12 @@ class Carousel extends React.Component {
       "airport",
     ]
     this.state = {
-      imageName: this.images[this.getRandomInteger(0, this.images.length)],
+      imageName: this.images[0],
     }
+  }
+
+  componentDidMount() {
+    this.next()
   }
 
   getRandomInteger = (min, max) => {
@@ -40,9 +44,10 @@ class Carousel extends React.Component {
   }
 
   render() {
+    console.info("render")
     const { imageName } = this.state
-    const { change } = this
-    const items = this.images.map(function(item, key) {
+    const { change, images } = this
+    const items = images.map(function(item, key) {
       var className = "thumbnail-image"
       className += imageName === item ? " thumbnail-active" : ""
       return (

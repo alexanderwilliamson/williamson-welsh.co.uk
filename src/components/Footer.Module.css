@@ -1,5 +1,11 @@
+.footer-image {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 footer {
-  display: block;
-  height: 300px;
-  background: url("../images/flowers-12-655.png") no-repeat bottom center;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
