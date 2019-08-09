@@ -12,7 +12,7 @@ class GiftList extends React.Component {
             file(relativePath: { eq: "flowers-12-655.png" }) {
               childImageSharp {
                 fluid(maxWidth: 655) {
-                  ...GatsbyImageSharpFluid_tracedSVG
+                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
                 }
               }
             }

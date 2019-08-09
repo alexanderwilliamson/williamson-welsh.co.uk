@@ -12,7 +12,7 @@ class OurDay extends React.Component {
             file(relativePath: { eq: "our-day-flowers.png" }) {
               childImageSharp {
                 fluid(maxWidth: 300) {
-                  ...GatsbyImageSharpFluid_tracedSVG
+                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
                 }
               }
             }

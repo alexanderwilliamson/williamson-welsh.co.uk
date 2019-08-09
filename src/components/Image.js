@@ -7,7 +7,7 @@ const Image = ({ imageName, fluidOrFixed }) => {
     fragment servicesImage on File {
       childImageSharp {
         fluid(maxWidth: 900, maxHeight: 900, cropFocus: CENTER) {
-          ...GatsbyImageSharpFluid_tracedSVG
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
         }
       }
     }
