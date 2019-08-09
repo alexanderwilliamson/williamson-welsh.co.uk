@@ -55,21 +55,21 @@ const BackgroundSection = ({ className }) => (
                   <p>Winchester</p>
                   <p>Wintax</p>
                   <p>
-                    <a href="tel:+441962878727">01962 878 727</a>
+                    <a href="tel:+441962878727">01962 878727</a>
                   </p>
                 </div>
                 <div className="taxi">
                   <p>Winchester</p>
                   <p>Wessex Cars</p>
                   <p>
-                    <a href="tel:+441962877749">01962 877 749</a>
+                    <a href="tel:+441962877749">01962 877749</a>
                   </p>
                 </div>
                 <div className="taxi">
                   <p>Andover</p>
                   <p>A&amp;B Cars</p>
                   <p>
-                    <a href="tel:+441264323444">01264 323 444</a>
+                    <a href="tel:+441264323444">01264 323444</a>
                   </p>
                 </div>
                 <div className="taxi">
