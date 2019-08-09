@@ -45,14 +45,11 @@ class Accomodation extends React.Component {
                 </p>
               </div>
               <div className="taxi">
-                <p>Romsey</p>
-                <p>Abbey Cars</p>
-                <p>TODO</p>
-              </div>
-              <div className="taxi">
                 <p>Andover</p>
                 <p>A&amp;B Cars</p>
-                <p>TODO</p>
+                <p>
+                  <a href="tel:+441264323444">01264 323 444</a>
+                </p>
               </div>
               <div className="taxi">
                 <p>Stockbridge</p>
