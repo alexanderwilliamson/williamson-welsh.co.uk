@@ -40,7 +40,7 @@ class GiftList extends React.Component {
                 <p className="button-container">
                   <a
                     className="gift-list"
-                    href="http://example.com"
+                    href="https://www.weddingshop.com/Buy/View/63578"
                     title="Alex and Jess' Gift List"
                   >
                     View our gift list
