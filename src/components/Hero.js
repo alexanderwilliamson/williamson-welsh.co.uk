@@ -4,7 +4,7 @@ import "./Hero.Module.css"
 class Hero extends React.Component {
   render() {
     return (
-      <section className="hero">
+      <section className="hero" id="top">
         <div className="hero-wedding-of">
           <p>The wedding of</p>
         </div>

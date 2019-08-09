@@ -1,12 +1,21 @@
+section#transport {
+  padding: 0px;
+  margin: 0 auto 0 auto;
+}
+
+#transport h1 {
+  padding-top: 50px;
+  margin-top: 0px;
+}
+
 .transport-outer {
   padding: 25px;
-  background: #27363d url("../images/pattern-a.jpg");
   background-size: cover;
 }
 
 .transport-inner {
-  padding: 10px;
   background-color: white;
+  padding: 20px;
 }
 
 .taxi-container {
