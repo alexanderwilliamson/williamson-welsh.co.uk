@@ -8,3 +8,12 @@
   padding: 10px;
   background-color: white;
 }
+
+.taxi-container {
+  display: flex;
+}
+
+.taxi {
+  flex: 1 1 auto;
+  text-align: center;
+}

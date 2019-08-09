@@ -29,19 +29,39 @@ class Accomodation extends React.Component {
               If you would like to organise your own taxi, here are some local
               companies:
             </p>
-            <ul>
-              <li>
-                Winchester - Wintax:{" "}
-                <a href="tel:+441962878727">01962 878 727</a>
-              </li>
-              <li>
-                Winchester - Wessex cars:{" "}
-                <a href="tel:+441962877749">01962 877 749</a>
-              </li>
-              <li>Romsey - Abbey cars: </li>
-              <li>Andover - A&amp;B cars:</li>
-              <li>Stockbridge - Juddy: 07950 137 203</li>
-            </ul>
+            <div className="taxi-container">
+              <div className="taxi">
+                <p>Winchester</p>
+                <p>Wintax</p>
+                <p>
+                  <a href="tel:+441962878727">01962 878 727</a>
+                </p>
+              </div>
+              <div className="taxi">
+                <p>Winchester</p>
+                <p>Wessex Cars</p>
+                <p>
+                  <a href="tel:+441962877749">01962 877 749</a>
+                </p>
+              </div>
+              <div className="taxi">
+                <p>Romsey</p>
+                <p>Abbey Cars</p>
+                <p>TODO</p>
+              </div>
+              <div className="taxi">
+                <p>Andover</p>
+                <p>A&amp;B Cars</p>
+                <p>TODO</p>
+              </div>
+              <div className="taxi">
+                <p>Stockbridge</p>
+                <p>Juddy</p>
+                <p>
+                  <a href="tel:+447950137203">07950 137 203</a>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
