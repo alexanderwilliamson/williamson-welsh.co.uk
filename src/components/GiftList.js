@@ -42,6 +42,7 @@ class GiftList extends React.Component {
                     className="gift-list"
                     href="https://www.weddingshop.com/Buy/View/63578"
                     title="Alex and Jess' Gift List"
+                    target="gift-list"
                   >
                     View our gift list
                   </a>
