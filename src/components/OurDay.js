@@ -46,10 +46,10 @@ class OurDay extends React.Component {
                   </li>
                 </ul>
                 <p>
-                  <strong>
+                  <span class="strong">
                     We’d also love it if you could please bring along a coconut
                     to our reception!
-                  </strong>
+                  </span>
                 </p>
               </div>
             </div>

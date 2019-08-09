@@ -23,7 +23,7 @@
 }
 
 @font-face {
-  font-family: "Open Sans";
+  font-family: "ForcedOpenSans";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/open-sans-v17-latin-regular.eot");
@@ -41,7 +41,10 @@ html {
 }
 
 html {
-  font-family: "Open Sans";
+  font-family: "ForcedOpenSans";
+  * {
+    -webkit-font-smoothing: antialiased;
+  }
 }
 
 section {
