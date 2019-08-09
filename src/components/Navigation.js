@@ -1,6 +1,7 @@
 import React from "react"
 import "./Navigation.Module.css"
-import Monogram from "../images/gold-monogram.png"
+import { StaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
 import Close from "../images/twotone-close-24px.svg"
 import Menu from "../images/twotone-menu-24px.svg"
 
@@ -63,11 +64,19 @@ class Navigation extends React.Component {
         <ul className={className}>
           <li>
             <a href="#top" onClick={hide} title="Jump to top of page">
-              <img
-                className="gold-monogram"
-                alt="Logo"
-                src={Monogram}
-                height="80"
+              <StaticQuery
+                query={graphql`
+                  query {
+                    file(relativePath: { eq: "gold-monogram.png" }) {
+                      childImageSharp {
+                        fixed(height: 80) {
+                          ...GatsbyImageSharpFixed_withWebp_tracedSVG
+                        }
+                      }
+                    }
+                  }
+                `}
+                render={data => <Img fixed={data.file.childImageSharp.fixed} />}
               />
             </a>
           </li>
