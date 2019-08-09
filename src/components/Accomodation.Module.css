@@ -1,0 +1,10 @@
+.accomodation-flexbox {
+  display: flex;
+  text-align: center;
+}
+
+.accomodation-flexbox .accomodation-flowers {
+  width: 100%;
+  max-width: 300px;
+  padding-left: 40px;
+}

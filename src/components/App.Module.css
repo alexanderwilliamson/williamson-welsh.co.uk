@@ -186,3 +186,13 @@ section {
 .strong {
   font-weight: bold;
 }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 3px solid rgba(116, 181, 96, 0.5);
+  margin: 50px auto;
+  padding: 0;
+  width: 60%;
+}

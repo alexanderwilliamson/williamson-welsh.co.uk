@@ -1,31 +1,55 @@
 import React from "react"
+import { StaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
+import "./Accomodation.Module.css"
 
 class Accomodation extends React.Component {
   render() {
     return (
       <section id="accomodation">
-        <h1>Accommodation</h1>
-        <p>
-          There are numerous options in and around both Stockbridge and
-          Winchester. We have reserved all rooms in{" "}
-          <a href="http://thegreyhoundonthetest.co.uk">
-            The Greyhound on The Test
-          </a>{" "}
-          and{" "}
-          <a href="https://g.page/GrosvenorHotelStockbridge?share">
-            The Grosvenor Hotel
-          </a>{" "}
-          in Stockbridge on Friday and Saturday night. If you would like to book
-          a room here for one or both nights, please call Hayley at The
-          Greyhound on: 01264 810833
-        </p>
-        <p>
-          The weekend of our wedding is{" "}
-          <a href="https://hatfair.co.uk">Winchester Hat Fair</a> so town will
-          be busy and accommodation will get booked up quickly. If you want to
-          stay in Winchester on Friday night there will be an amazing atmosphere
-          with music and street performers!
-        </p>
+        <div class="accomodation-flexbox">
+          <div class="accomodation-content">
+            <h1>Accommodation</h1>
+            <p>
+              There are numerous options in and around both Stockbridge and
+              Winchester. We have reserved all rooms in{" "}
+              <a href="http://thegreyhoundonthetest.co.uk">
+                The Greyhound on The Test
+              </a>{" "}
+              and{" "}
+              <a href="https://g.page/GrosvenorHotelStockbridge?share">
+                The Grosvenor Hotel
+              </a>{" "}
+              in Stockbridge on Friday and Saturday night. If you would like to
+              book a room here for one or both nights, please call Hayley at The
+              Greyhound on: 01264 810833
+            </p>
+            <p>
+              The weekend of our wedding is{" "}
+              <a href="https://hatfair.co.uk">Winchester Hat Fair</a> so town
+              will be busy and accommodation will get booked up quickly. If you
+              want to stay in Winchester on Friday night there will be an
+              amazing atmosphere with music and street performers!
+            </p>
+          </div>
+          <div class="accomodation-flowers">
+            <StaticQuery
+              query={graphql`
+                query {
+                  file(relativePath: { eq: "accomodation-flowers.png" }) {
+                    childImageSharp {
+                      fluid(maxWidth: 300) {
+                        ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                      }
+                    }
+                  }
+                }
+              `}
+              render={data => <Img fluid={data.file.childImageSharp.fluid} />}
+            />
+          </div>
+        </div>
+        <hr />
         <h2>Winchester Hotels</h2>
         <div className="hotel">
           <h3>

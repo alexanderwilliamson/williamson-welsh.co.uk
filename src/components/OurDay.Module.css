@@ -54,16 +54,6 @@ address a:active {
   padding-bottom: 1em;
 }
 
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 3px solid rgba(116, 181, 96, 0.5);
-  margin: 50px auto;
-  padding: 0;
-  width: 60%;
-}
-
 #our-day h2,
 #our-day h3 {
   text-align: left;
