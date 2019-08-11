@@ -9,8 +9,10 @@
   align-self: center;
 }
 
-#accomodation h1 {
-  max-width: 80%;
+@media screen and (max-width: 600px) {
+  .accomodation-flexbox .accomodation-flowers {
+    display: none;
+  }
 }
 
 #accomodation h2,
