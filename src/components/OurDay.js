@@ -28,7 +28,7 @@ class OurDay extends React.Component {
             <h1>Our Day</h1>
             <p>
               We can’t wait to see you on our wedding day! Here are some details
-              to help you plan.
+              to help you plan:
             </p>
             <ul>
               <li>
@@ -61,10 +61,10 @@ class OurDay extends React.Component {
         <hr />
         <div className="timeline">
           <div className="timeline-section">
-            <h3>1 o’clock</h3>
+            <h2>1 o’clock</h2>
             <ul>
               <li>
-                <h2>The Church</h2>
+                <h3>The Church</h3>
                 <address>
                   <a
                     href="https://goo.gl/maps/RW8k8zF442CTwuYE7"
@@ -76,15 +76,18 @@ class OurDay extends React.Component {
                 </address>
                 <p>
                   The ceremony starts at 1 o'clock so please arrive 15 minutes
-                  before. There is plenty of parking on the field beside the
-                  church and this will be signed from the main road. It’s worth
-                  having brunch/lunch before you arrive as the ceremony will be
-                  around 1 hour.
+                  before.
+                </p>
+                <p>
+                  There is plenty of parking on the field beside the church and
+                  this will be sign posted from the main road. It’s worth having
+                  brunch/lunch before you arrive as the ceremony will be around
+                  1 hour long.
                 </p>
                 <p>
                   After the ceremony, please make your own way to the reception
-                  venue. You will drive through Stockbridge on your way so
-                  please feel free to stop by your hotel to check in.
+                  venue. You will drive through Stockbridge on your way if you
+                  wanted to stop by your accommodation to check in.
                 </p>
               </li>
             </ul>
@@ -104,40 +107,21 @@ class OurDay extends React.Component {
                 </address>
                 <p>
                   After the church ceremony, reception drinks will be served as
-                  we arrive at Houghton Lodge. There is allocated wedding
-                  parking which will be signed and is located just beyond the
-                  main entrance to Houghton Lodge Gardens. Please feel free to
-                  leave your car here overnight if you’re able to collect it by
-                  10.30am on Sunday.
+                  we arrive at Houghton Lodge Gardens and this is where we will
+                  stay for the remainder of the day. There is allocated wedding
+                  parking which will be sign posted from the main road and is
+                  located just beyond the main entrance to Houghton Lodge
+                  Gardens. If you would like to leave your car here overnight it
+                  will need to be collected by 10.30am on Sunday.
                 </p>
-                <h2>The Afterparty</h2>
-                <address>
-                  <a
-                    href="https://goo.gl/maps/Vf7rGHqQ5t3UQR1i6"
-                    title="Google Maps"
-                  >
-                    The Greyhound on The Test, 31 High Street, Stockbridge, SO20
-                    6EY
-                  </a>
-                </address>
               </li>
             </ul>
           </div>
           <div className="timeline-section">
+            <h2>12 midnight</h2>
             <ul>
               <li>
-                <h3>12 midnight</h3>
-                <p>
-                  We will be arranging transport from Houghton Lodge Gardens to
-                  The Greyhound on the Test for the afterparty.
-                </p>
-                <p>
-                  Stockbridge has a central high street, and the majority of our
-                  suggested accommodation is an easy walk from the drop-off
-                  point. Please let us know in your RSVP if you would like a
-                  seat on the bus!
-                </p>
-                <h2>Sunday Morning</h2>
+                <h3>The Afterparty</h3>
                 <address>
                   <a
                     href="https://goo.gl/maps/Vf7rGHqQ5t3UQR1i6"
@@ -147,7 +131,36 @@ class OurDay extends React.Component {
                     6EY
                   </a>
                 </address>
-                <h3>Around 10 o’clock</h3>
+                <p>
+                  Our last dance will be just before midnight and after this we
+                  will be inviting guests to The Greyhound on The Test to
+                  continue partying with us until 2am.
+                </p>
+                <p>
+                  There will be a bus which will do a few trips to The Greyhound
+                  on The Test from around midnight. If you are staying in
+                  Stockbridge please feel free to make the most of this as you
+                  will be able to walk to your accommodation even if you’re not
+                  able to keep dancing! Please let us know in your RSVP if you
+                  would like a seat on the bus!
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div className="timeline-section">
+            <h2>Around 10 o'clock Sunday</h2>
+            <ul>
+              <li>
+                <h3>Bacon butties &amp; Bloody Marys</h3>
+                <address>
+                  <a
+                    href="https://goo.gl/maps/Vf7rGHqQ5t3UQR1i6"
+                    title="Google Maps"
+                  >
+                    The Greyhound on The Test, 31 High Street, Stockbridge, SO20
+                    6EY
+                  </a>
+                </address>
                 <p>
                   We’d love you to join us in the Courtyard of The Greyhound on
                   The Test for bacon butties and Bloody Marys before you head

@@ -27,3 +27,17 @@ section#transport {
   flex: 1 1 auto;
   text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+  .taxi-container {
+    display: block;
+  }
+
+  .taxi {
+    width: 100%;
+  }
+
+  .taxi:not(:last-child) {
+    margin-bottom: 50px;
+  }
+}

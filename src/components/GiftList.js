@@ -31,11 +31,9 @@ class GiftList extends React.Component {
                   so please don’t feel like you need to get us a gift!
                 </p>
                 <p>
-                  If you would like to get us something, we have pulled together
-                  a selection of gifts and experiences on the link below. As we
-                  already have a home together there is very little we need so a
-                  contribution towards our honeymoon would be very much
-                  appreciated.
+                  However, if you’d really like to get us something, we’ve
+                  pulled together a selection of gifts and experiences to help
+                  you choose.
                 </p>
                 <p className="button-container">
                   <a

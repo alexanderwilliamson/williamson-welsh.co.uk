@@ -9,6 +9,10 @@
   align-self: center;
 }
 
+#accomodation h1 {
+  max-width: 80%;
+}
+
 #accomodation h2,
 #accomodation h3 {
   text-align: left;
@@ -28,6 +32,7 @@
   font-size: 100%;
   margin-top: 15px;
   padding: 0px;
+  text-align: center;
 }
 
 #accomodation h3 a {
@@ -41,6 +46,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin: auto;
+  text-align: center;
 }
 
 .hotels > div {

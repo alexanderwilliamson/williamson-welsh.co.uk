@@ -12,17 +12,21 @@ class Accomodation extends React.Component {
             <h1>Accommodation</h1>
             <p>
               There are numerous options in and around Stockbridge and
-              Winchester. We have reserved all rooms in{" "}
+              Winchester. The bridal party will be staying at{" "}
               <a href="http://thegreyhoundonthetest.co.uk">
                 The Greyhound on The Test
               </a>{" "}
-              and{" "}
+              in Stockbridge and we have reserved all the rooms for both Friday
+              and Saturday night at{" "}
               <a href="https://g.page/GrosvenorHotelStockbridge?share">
                 The Grosvenor Hotel
               </a>{" "}
-              in Stockbridge on Friday and Saturday night. If you would like to
-              book a room here for one or both nights, please call Hayley at The
-              Greyhound on: 01264 810833
+              which is just down the road.
+            </p>
+            <p>
+              If you would like to book a room at The Grosvenor Hotel please
+              call Hayley at The Greyhound on:{" "}
+              <a href="tel:+441264810833">01264 810 833</a>
             </p>
             <p>
               The weekend of our wedding is also{" "}
@@ -156,13 +160,10 @@ class Accomodation extends React.Component {
         <h2>Stockbridge</h2>
         <p>
           Stockbridge accommodation consists of mainly of pubs with rooms, but
-          there are also lots of B&amp;B’s that we haven’t listed. Anything
-          along the high street will be walkable from The Greyhound on the Test
-          if you are making the most of our bus at the end of the night!
-        </p>
-        <p>
-          The road between Houghton Lodge Gardens and Stockbridge is not safe to
-          walk, so please either book a seat on our bus or arrange a taxi.
+          there are also lots of B&amp;Bs that we haven’t listed. Anything along
+          the high street will be walkable from The Greyhound on the Test if you
+          are joining us for the after party or making the most of our bus at
+          the end of the night!
         </p>
         <div className="hotels">
           <div className="hotel">
@@ -173,11 +174,14 @@ class Accomodation extends React.Component {
             </h3>
             <p>From &pound;100 per night (28 rooms)</p>
             <p>
-              This has just been completely renovated and all the rooms have
-              been reserved for our guests. It is a 2 minute walk from The
-              Greyhound on The Test and has free parking.
+              We have reserved all rooms here on both Friday and Saturday night.
+              The entire hotel has recently been renovated and it is a 2 minute
+              walk from The Greyhound on The Test. It also has free parking.
             </p>
-            <p>To book, please call Hayley on 01264 810833</p>
+            <p>
+              To book, please call Hayley on{" "}
+              <a href="tel:+441264810833">01264 810833</a>
+            </p>
             <ul>
               <li>10.7 miles from the church</li>
               <li>1.7 miles from the reception venue</li>

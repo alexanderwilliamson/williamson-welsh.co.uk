@@ -63,17 +63,13 @@ address a:active {
   line-height: initial;
 }
 
-#our-day h2 {
+#our-day h3 {
   font-size: 24px;
   color: rgba(116, 181, 96, 0.8);
   text-transform: uppercase;
 }
 
-#our-day h2:nth-of-type(1n + 2) {
-  margin-top: 50px;
-}
-
-#our-day h3 {
+#our-day h2 {
   font-size: 100%;
   margin-top: 15px;
   padding: 0px;
