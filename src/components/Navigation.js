@@ -57,7 +57,7 @@ class Navigation extends React.Component {
     className += this.state.opened ? " opened" : ""
     const { hide } = this
     return (
-      <nav id="top">
+      <nav>
         <div className="hamburger">
           <img alt="Menu" src={hamburgerImage} onClick={this.toggle} />
         </div>
@@ -98,6 +98,11 @@ class Navigation extends React.Component {
           <li>
             <a href="#gift-list" onClick={hide} title="Jump to Gift List">
               Gift List
+            </a>
+          </li>
+          <li>
+            <a href="#gift-list" onClick={hide} title="Jump to Gift List">
+              Photos
             </a>
           </li>
           <li>

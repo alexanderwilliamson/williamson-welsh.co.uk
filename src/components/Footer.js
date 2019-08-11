@@ -3,7 +3,7 @@ import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import "./Footer.Module.css"
 
-class GiftList extends React.Component {
+class Footer extends React.Component {
   render() {
     return (
       <StaticQuery
@@ -30,4 +30,4 @@ class GiftList extends React.Component {
   }
 }
 
-export default GiftList
+export default Footer
