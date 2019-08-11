@@ -33,8 +33,8 @@ class GiftList extends React.Component {
                 <p>
                   If you would like to get us something, we have pulled together
                   a selection of gifts and experiences on the link below. As we
-                  already have a home together there is very little we need and
-                  a contribution towards our honeymoon would be very much
+                  already have a home together there is very little we need so a
+                  contribution towards our honeymoon would be very much
                   appreciated.
                 </p>
                 <p className="button-container">

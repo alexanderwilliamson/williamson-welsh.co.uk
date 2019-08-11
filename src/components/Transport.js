@@ -36,8 +36,11 @@ const BackgroundSection = ({ className }) => (
               <p>
                 We will be arranging a bus from Houghton Lodge to Stockbridge at
                 the end of the night. Please let us know if you would like a
-                seat on the bus and wish to leave your car at Houghton Lodge
-                Gardens overnight to be collected by 10.30am on Sunday.
+                seat on the bus at midnight and wish to leave your car.
+              </p>
+              <p>
+                Cars left at Houghton Lodge Gardens need to be collected by
+                10.30am on Sunday.
               </p>
               <p>
                 We will have a car on call throughout the afternoon should you
@@ -53,28 +56,28 @@ const BackgroundSection = ({ className }) => (
               <div className="taxi-container">
                 <div className="taxi">
                   <p>Winchester</p>
-                  <p>Wintax</p>
+                  <p class="strong">Wintax</p>
                   <p>
                     <a href="tel:+441962878727">01962 878727</a>
                   </p>
                 </div>
                 <div className="taxi">
                   <p>Winchester</p>
-                  <p>Wessex Cars</p>
+                  <p class="strong">Wessex Cars</p>
                   <p>
                     <a href="tel:+441962877749">01962 877749</a>
                   </p>
                 </div>
                 <div className="taxi">
                   <p>Andover</p>
-                  <p>A&amp;B Cars</p>
+                  <p class="strong">A&amp;B Cars</p>
                   <p>
                     <a href="tel:+441264323444">01264 323444</a>
                   </p>
                 </div>
                 <div className="taxi">
                   <p>Stockbridge</p>
-                  <p>Juddy</p>
+                  <p class="strong">Juddy</p>
                   <p>
                     <a href="tel:+447950137203">07950 137 203</a>
                   </p>

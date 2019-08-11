@@ -1,10 +1,36 @@
 .accomodation-flexbox {
   display: flex;
-  text-align: center;
 }
 
 .accomodation-flexbox .accomodation-flowers {
   width: 100%;
   max-width: 300px;
   padding-left: 40px;
+  align-self: center;
+}
+
+#accomodation h2,
+#accomodation h3 {
+  text-align: left;
+  font-family: "ForcedOpenSans";
+  padding: 10px 10px 10px 0px;
+  margin: 0;
+  line-height: initial;
+}
+
+#accomodation h2 {
+  font-size: 24px;
+  color: rgba(116, 181, 96, 0.8);
+  text-transform: uppercase;
+}
+
+#accomodation h3 {
+  font-size: 100%;
+  margin-top: 15px;
+  padding: 0px;
+}
+
+#accomodation h3 a {
+  color: inherit;
+  text-decoration: none;
 }

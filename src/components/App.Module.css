@@ -1,3 +1,7 @@
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
 @font-face {
   font-family: "Dalmatins";
   src: url("../fonts/Dalmatins.eot");
@@ -42,14 +46,12 @@ html {
 
 html {
   font-family: "ForcedOpenSans";
-  * {
-    -webkit-font-smoothing: antialiased;
-  }
+  line-height: normal;
 }
 
 section {
   clear: both;
-  padding: 20px 10px 40px 10px;
+  padding: 20px 20px 40px 20px;
 }
 
 h1,

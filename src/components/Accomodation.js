@@ -7,11 +7,11 @@ class Accomodation extends React.Component {
   render() {
     return (
       <section id="accomodation">
-        <div class="accomodation-flexbox">
-          <div class="accomodation-content">
+        <div className="accomodation-flexbox">
+          <div className="accomodation-content">
             <h1>Accommodation</h1>
             <p>
-              There are numerous options in and around both Stockbridge and
+              There are numerous options in and around Stockbridge and
               Winchester. We have reserved all rooms in{" "}
               <a href="http://thegreyhoundonthetest.co.uk">
                 The Greyhound on The Test
@@ -25,14 +25,14 @@ class Accomodation extends React.Component {
               Greyhound on: 01264 810833
             </p>
             <p>
-              The weekend of our wedding is{" "}
-              <a href="https://hatfair.co.uk">Winchester Hat Fair</a> so town
-              will be busy and accommodation will get booked up quickly. If you
-              want to stay in Winchester on Friday night there will be an
+              The weekend of our wedding is also{" "}
+              <a href="https://hatfair.co.uk">Winchester Hat Fair</a> so the
+              city will be busy and accommodation will get booked up quickly. If
+              you want to stay in Winchester on Friday night there will be an
               amazing atmosphere with music and street performers!
             </p>
           </div>
-          <div class="accomodation-flowers">
+          <div className="accomodation-flowers">
             <StaticQuery
               query={graphql`
                 query {
@@ -50,7 +50,7 @@ class Accomodation extends React.Component {
           </div>
         </div>
         <hr />
-        <h2>Winchester Hotels</h2>
+        <h2>Winchester</h2>
         <div className="hotel">
           <h3>
             <a href="https://www.travelodge.co.uk/hotels/660/Winchester-hotel">
@@ -79,7 +79,7 @@ class Accomodation extends React.Component {
           <p>
             This is just behind the Travelodge, right next to the Cathedral and
             is another option if you want to be in the center of the city. It
-            has parking which you need to pay for.
+            has parking which you will need to pay for.
           </p>
           <ul>
             <li>1.9 miles from the church</li>
@@ -94,8 +94,8 @@ class Accomodation extends React.Component {
           </h3>
           <p>From &pound;140 per night</p>
           <p>
-            This is a little more upmarket but a little dated. It is at the top
-            of the high street and is a central option with parking.
+            This is a little more upmarket but quite dated. It is at the top of
+            the high street and is a central option with parking.
           </p>
           <ul>
             <li>2.1 miles from the church</li>
@@ -112,7 +112,7 @@ class Accomodation extends React.Component {
           <p>
             This is near the train station on the outskirts of town. It has
             ample parking and will take you about 15 minutes to walk into the
-            city center from here.
+            city centre from here.
           </p>
           <ul>
             <li>2.3 miles from the church</li>
@@ -129,19 +129,20 @@ class Accomodation extends React.Component {
           <p>
             This has been open a few years and has good reviews! It’s on the
             outskirts of town with free parking. It will take you about 20
-            minutes to walk into the city center.
+            minutes to walk into the city centre.
           </p>
           <ul>
             <li>2.3 miles from the church</li>
             <li>14.1 miles from the reception venue</li>
           </ul>
         </div>
-        <p>
+        <p class="strong">
           There is also a Hotel du Vin and some great pubs with rooms (Number 5
           Bridge Street, The Black Hole, The Westgate, the Wykeham Arms) if you
           are after something a little more individual!
         </p>
-        <h2>Stockbridge Hotels</h2>
+        <hr />
+        <h2>Stockbridge</h2>
         <p>
           Stockbridge accommodation consists of mainly of pubs with rooms, but
           there are also lots of B&amp;B’s that we haven’t listed. Anything
@@ -180,7 +181,7 @@ class Accomodation extends React.Component {
           <p>
             This is a nice modern pub with quality fitted bedrooms and free
             parking. It is the opposite end of the high street from The
-            Greyhound on The Test and about a 10 minute walk.
+            Greyhound on The Test and is about a 10 minute walk.
           </p>
           <ul>
             <li>10.6 miles from the church</li>
