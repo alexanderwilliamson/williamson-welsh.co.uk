@@ -27,8 +27,8 @@ class GiftList extends React.Component {
                 </div>{" "}
                 <h1>Gift List</h1>
                 <p>
-                  Having you at our wedding is the most important thing to us,
-                  so please don’t feel like you need to get us a gift!
+                  Having you at our wedding is the most important thing to us so
+                  please don’t feel like you need to get us a gift!
                 </p>
                 <p>
                   However, if you’d really like to get us something, we’ve
