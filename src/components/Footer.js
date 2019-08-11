@@ -9,9 +9,9 @@ class GiftList extends React.Component {
       <StaticQuery
         query={graphql`
           query {
-            file(relativePath: { eq: "flowers-12-655.png" }) {
+            file(relativePath: { eq: "footer.png" }) {
               childImageSharp {
-                fluid(maxWidth: 655) {
+                fluid(maxWidth: 655, quality: 90) {
                   ...GatsbyImageSharpFluid_withWebp_tracedSVG
                 }
               }

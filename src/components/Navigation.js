@@ -46,7 +46,7 @@ class Navigation extends React.Component {
   hide = () => {
     this.setState({
       lastOffset: window.pageYOffset,
-      scrollingUpwards: this.state.scrollingUpwards,
+      scrollingUpwards: false,
       opened: false,
     })
   }

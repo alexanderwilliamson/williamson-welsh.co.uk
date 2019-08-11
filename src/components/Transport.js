@@ -56,28 +56,28 @@ const BackgroundSection = ({ className }) => (
               <div className="taxi-container">
                 <div className="taxi">
                   <p>Winchester</p>
-                  <p class="strong">Wintax</p>
+                  <p className="strong">Wintax</p>
                   <p>
                     <a href="tel:+441962878727">01962 878727</a>
                   </p>
                 </div>
                 <div className="taxi">
                   <p>Winchester</p>
-                  <p class="strong">Wessex Cars</p>
+                  <p className="strong">Wessex Cars</p>
                   <p>
                     <a href="tel:+441962877749">01962 877749</a>
                   </p>
                 </div>
                 <div className="taxi">
                   <p>Andover</p>
-                  <p class="strong">A&amp;B Cars</p>
+                  <p className="strong">A&amp;B Cars</p>
                   <p>
                     <a href="tel:+441264323444">01264 323444</a>
                   </p>
                 </div>
                 <div className="taxi">
                   <p>Stockbridge</p>
-                  <p class="strong">Juddy</p>
+                  <p className="strong">Juddy</p>
                   <p>
                     <a href="tel:+447950137203">07950 137 203</a>
                   </p>
