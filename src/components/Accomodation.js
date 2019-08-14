@@ -8,6 +8,13 @@ class Accomodation extends React.Component {
     return (
       <StaticQuery
         query={graphql`
+          fragment cardSettings on File {
+            childImageSharp {
+              fluid(maxWidth: 500, quality: 95, cropFocus: SOUTH) {
+                ...GatsbyImageSharpFluid_withWebp_tracedSVG
+              }
+            }
+          }
           query {
             flowers: file(relativePath: { eq: "accomodation-flowers.png" }) {
               childImageSharp {
@@ -31,64 +38,32 @@ class Accomodation extends React.Component {
               }
             }
             travelodge: file(relativePath: { eq: "travelodge.jpg" }) {
-              childImageSharp {
-                fluid(maxWidth: 350) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
-                }
-              }
+              ...cardSettings
             }
             wessex: file(relativePath: { eq: "wessex.jpg" }) {
-              childImageSharp {
-                fluid(maxWidth: 350) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
-                }
-              }
+              ...cardSettings
             }
             winchesterRoyal: file(
               relativePath: { eq: "winchester-royal.jpg" }
             ) {
-              childImageSharp {
-                fluid(maxWidth: 350) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
-                }
-              }
+              ...cardSettings
             }
             winchesterHotelAndSpa: file(
               relativePath: { eq: "winchester-hotel-and-spa.jpg" }
             ) {
-              childImageSharp {
-                fluid(maxWidth: 350) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
-                }
-              }
+              ...cardSettings
             }
             premierInn: file(relativePath: { eq: "premier-inn.jpg" }) {
-              childImageSharp {
-                fluid(maxWidth: 350) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
-                }
-              }
+              ...cardSettings
             }
             grosvenor: file(relativePath: { eq: "the-grosvenor.jpg" }) {
-              childImageSharp {
-                fluid(maxWidth: 350) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
-                }
-              }
+              ...cardSettings
             }
             whiteHart: file(relativePath: { eq: "white-hart.jpg" }) {
-              childImageSharp {
-                fluid(maxWidth: 350) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
-                }
-              }
+              ...cardSettings
             }
             threeCups: file(relativePath: { eq: "three-cups.jpg" }) {
-              childImageSharp {
-                fluid(maxWidth: 350) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
-                }
-              }
+              ...cardSettings
             }
           }
         `}
@@ -157,7 +132,7 @@ class Accomodation extends React.Component {
                     display car park (free between 6pm - 8am).
                   </p>
                 </div>
-                <div class="card-footer">
+                <div className="card-footer">
                   <ul>
                     <li className="church">
                       <span className="icon">
@@ -200,7 +175,7 @@ class Accomodation extends React.Component {
                     pay for.
                   </p>
                 </div>
-                <div class="card-footer">
+                <div className="card-footer">
                   <ul>
                     <li className="church">
                       <span className="icon">
@@ -241,7 +216,7 @@ class Accomodation extends React.Component {
                     top of the high street and is a central option with parking.
                   </p>
                 </div>
-                <div class="card-footer">
+                <div className="card-footer">
                   <ul>
                     <li className="church">
                       <span className="icon">
@@ -285,7 +260,7 @@ class Accomodation extends React.Component {
                     into the city centre from here.
                   </p>
                 </div>
-                <div class="card-footer">
+                <div className="card-footer">
                   <ul>
                     <li className="church">
                       <span className="icon">
@@ -327,7 +302,7 @@ class Accomodation extends React.Component {
                     about 20 minutes to walk into the city centre.
                   </p>
                 </div>
-                <div class="card-footer">
+                <div className="card-footer">
                   <ul>
                     <li className="church">
                       <span className="icon">
@@ -389,7 +364,7 @@ class Accomodation extends React.Component {
                       The Grosvenor Hotel
                     </a>
                   </h3>
-                  <p class="price">From &pound;100 per night (28 rooms)</p>
+                  <p className="price">From &pound;100 per night (28 rooms)</p>
                   <p>
                     We have reserved all rooms here on both Friday and Saturday
                     night. The entire hotel has recently been renovated and it
@@ -401,7 +376,7 @@ class Accomodation extends React.Component {
                     <a href="tel:+441264810833">01264 810833</a>
                   </p>
                 </div>
-                <div class="card-footer">
+                <div className="card-footer">
                   <ul>
                     <li className="church">
                       <span className="icon">
@@ -436,14 +411,14 @@ class Accomodation extends React.Component {
                       The White Hart Inn
                     </a>
                   </h3>
-                  <p class="price">From &pound;100 per night (14 rooms)</p>
+                  <p className="price">From &pound;100 per night (14 rooms)</p>
                   <p>
                     This is a nice modern pub with quality fitted bedrooms and
                     free parking. It is the opposite end of the high street with
                     a 10 minute walk from The Greyhound on The Test.
                   </p>
                 </div>
-                <div class="card-footer">
+                <div className="card-footer">
                   <ul>
                     <li className="church">
                       <span className="icon">
@@ -472,13 +447,13 @@ class Accomodation extends React.Component {
                       The Three Cups
                     </a>
                   </h3>
-                  <p class="price">From &pound;100 per night (14 rooms)</p>
+                  <p className="price">From &pound;100 per night (14 rooms)</p>
                   <p>
                     This pub is opposite The Greyhound on the Test and is a
                     little older but a charming option.
                   </p>
                 </div>
-                <div class="card-footer">
+                <div className="card-footer">
                   <ul>
                     <li className="church">
                       <span className="icon">

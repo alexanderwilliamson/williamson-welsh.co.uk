@@ -165,26 +165,6 @@ section {
   max-height: 100%;
 }
 
-.timeline ul,
-.timeline ul li {
-  margin: 0px;
-  padding: 0px;
-}
-
-.timeline ul {
-  list-style: none;
-}
-
-.timeline li {
-  text-align: left;
-}
-
-.timeline h3,
-.timeline h4 {
-  margin: 0;
-  padding: 0;
-}
-
 .strong {
   font-weight: bold;
 }

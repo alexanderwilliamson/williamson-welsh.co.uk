@@ -1,3 +1,26 @@
+address {
+  padding-left: 1.5em;
+  background: url("../images/outline-location_on-24px.svg") left center
+    no-repeat;
+  background-size: 1em;
+  min-height: 1em;
+  flex: 1;
+}
+
+address a:link,
+address a:visited,
+address a:active {
+  color: #999;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+}
+
+#our-day h2,
+#our-day h3 {
+  font-family: "ForcedOpenSans";
+}
+
 .our-day-flexbox {
   display: flex;
   align-items: center;
@@ -13,7 +36,7 @@
   padding-left: 30px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 799px) {
   .our-day-flexbox {
     display: block;
   }
@@ -23,54 +46,101 @@
   .our-day-pull-right {
     padding-left: 0px;
   }
+
+  #our-day h2,
+  #our-day h3 {
+    text-align: left;
+  }
+
+  #our-day h2 {
+    font-size: 16px;
+    line-height: 18px;
+    padding: 0;
+    margin: 0px;
+  }
+
+  #our-day h3 {
+    margin: 10px 0px 10px 0px;
+    padding: 0px;
+    font-size: 24px;
+    line-height: 26px;
+    color: rgba(116, 181, 96, 0.8);
+    text-transform: uppercase;
+  }
+
+  .timeline-section {
+    margin-bottom: 50px;
+  }
+
+  .timeline ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+  }
 }
 
-address {
-  padding-left: 1.5em;
-  background-image: url("../images/outline-location_on-24px.svg");
-  background-position: left middle;
-  background-repeat: no-repeat;
-  background-size: 1em;
-  min-height: 1em;
-  flex: 1;
-}
+@media screen and (min-width: 800px) {
+  .timeline {
+    position: relative;
+    height: 100%;
+  }
 
-address a:link,
-address a:visited,
-address a:active {
-  color: #999;
-  text-decoration: none;
-  font-style: normal;
-  font-size: 14px;
-}
+  .timeline-section {
+    position: relative;
+  }
 
-#our-day p {
-  overflow: hidden;
-  padding: 0px 0px 0px 0px;
-  margin: 5px 0px 15px 0px;
-}
+  .timeline-section h2,
+  .timeline-section h3 {
+    font-size: 24px;
+    line-height: 40px;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+  }
 
-#our-day li {
-  padding-bottom: 1em;
-}
+  .timeline h2 {
+    font-size: 16px;
+    text-align: right;
+    width: 200px;
+  }
 
-#our-day h2,
-#our-day h3 {
-  text-align: left;
-  font-family: "ForcedOpenSans";
-  padding: 10px 10px 10px 0px;
-  margin: 0;
-  line-height: initial;
-}
+  .timeline h3 {
+    font-size: 24px;
+    color: rgba(116, 181, 96, 0.8);
+    text-transform: uppercase;
+  }
 
-#our-day h3 {
-  font-size: 24px;
-  color: rgba(116, 181, 96, 0.8);
-  text-transform: uppercase;
-}
+  .timeline-section ul {
+    margin-top: -0px;
+  }
 
-#our-day h2 {
-  font-size: 100%;
-  margin-top: 15px;
-  padding: 0px;
+  .timeline ul {
+    padding: 0px 0px 20px 40px;
+    margin: -40px 0px 0px 200px;
+    list-style: none;
+    position: relative;
+  }
+
+  .timeline-section ul::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: rgba(116, 181, 96);
+    border-radius: 50%;
+    position: absolute;
+    left: 12px;
+    top: 16px;
+    z-index: 2;
+  }
+
+  .timeline-section:not(:last-child) ul::before {
+    content: "";
+    width: 2px;
+    height: calc(100% - 27px);
+    background: rgba(116, 181, 96);
+    position: absolute;
+    left: 16px;
+    top: 35px;
+    z-index: 2;
+  }
 }
