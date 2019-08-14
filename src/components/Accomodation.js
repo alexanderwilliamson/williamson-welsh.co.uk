@@ -10,7 +10,7 @@ class Accomodation extends React.Component {
         query={graphql`
           fragment cardSettings on File {
             childImageSharp {
-              fluid(maxWidth: 500, quality: 95, cropFocus: SOUTH) {
+              fluid(maxWidth: 700, quality: 95, cropFocus: SOUTH) {
                 ...GatsbyImageSharpFluid_withWebp_tracedSVG
               }
             }
