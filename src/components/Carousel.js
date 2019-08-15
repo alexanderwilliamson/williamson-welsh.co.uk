@@ -62,6 +62,7 @@ class Carousel extends React.Component {
     var nextIndex = this.images.indexOf(name)
     this.setState(prevState => ({
       ...prevState,
+      playing: false,
       imageName: this.images[nextIndex],
     }))
   }
