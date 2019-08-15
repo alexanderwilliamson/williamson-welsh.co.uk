@@ -1,5 +1,7 @@
 import React from "react"
 import Image from "./Image.js"
+import Pause from "../images/outline-pause-24px.svg"
+import Playing from "../images/outline-play_arrow-24px.svg"
 import "./Carousel.Module.css"
 
 class Carousel extends React.Component {
@@ -16,8 +18,27 @@ class Carousel extends React.Component {
       "airport",
     ]
     this.state = {
+      playing: true,
       imageName: this.images[0],
+      duration: 5000,
     }
+    this.handleTimeout()
+  }
+
+  handleTimeout = () => {
+    if (this.state.playing == true) {
+      this.next()
+    }
+    setTimeout(() => {
+      this.handleTimeout()
+    }, this.state.duration)
+  }
+
+  toggleSlideshow = () => {
+    this.setState(prevState => ({
+      ...prevState,
+      playing: !this.state.playing,
+    }))
   }
 
   componentDidMount() {
@@ -31,22 +52,24 @@ class Carousel extends React.Component {
   next = () => {
     var currentIndex = this.images.indexOf(this.state.imageName)
     var nextIndex = currentIndex < this.images.length - 1 ? currentIndex + 1 : 0
-    this.setState({
+    this.setState(prevState => ({
+      ...prevState,
       imageName: this.images[nextIndex],
-    })
+    }))
   }
 
   change = name => {
     var nextIndex = this.images.indexOf(name)
-    this.setState({
+    this.setState(prevState => ({
+      ...prevState,
       imageName: this.images[nextIndex],
-    })
+    }))
   }
 
   render() {
     console.info("render")
-    const { imageName } = this.state
-    const { change, images } = this
+    const { imageName, playing } = this.state
+    const { change, images, toggleSlideshow } = this
     const items = images.map(function(item, key) {
       var className = "thumbnail-image"
       className += imageName === item ? " thumbnail-active" : ""
@@ -62,12 +85,25 @@ class Carousel extends React.Component {
         </div>
       )
     })
+    const slideshowButtonImage = playing ? Pause : Playing
     return (
-      <section className="slideshow">
-        <div onClick={this.next}>
-          <Image imageName={imageName} draggable={false} fluidOrFixed="fluid" />
+      <section>
+        <div className="slideshow">
+          <div className="slideshow-main-image">
+            <div className="slideshow-controls">
+              <button onClick={toggleSlideshow}>
+                <img src={slideshowButtonImage} />
+              </button>
+            </div>
+            <Image
+              onClick={this.next}
+              imageName={imageName}
+              draggable={false}
+              fluidOrFixed="fluid"
+            />
+          </div>
+          <div className="slideshow-thumbnails">{items}</div>
         </div>
-        <div className="thumbnail-buttons">{items}</div>
       </section>
     )
   }

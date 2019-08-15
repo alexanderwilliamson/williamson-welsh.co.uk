@@ -1,5 +1,25 @@
-.slideshow img {
+.slideshow-main-image {
+  position: relative;
+}
+
+.slideshow-main-image img {
   width: 100%;
+}
+
+.slideshow-controls {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+}
+
+.slideshow-controls button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
 }
 
 .thumbnail-image {
