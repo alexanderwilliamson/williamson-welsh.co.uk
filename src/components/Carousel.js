@@ -22,7 +22,6 @@ class Carousel extends React.Component {
       imageName: this.images[0],
       duration: 5000,
     }
-    this.handleTimeout()
   }
 
   handleTimeout = () => {
@@ -42,6 +41,7 @@ class Carousel extends React.Component {
   }
 
   componentDidMount() {
+    this.handleTimeout()
     this.next()
   }
 
