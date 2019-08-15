@@ -80,7 +80,7 @@ class Accomodation extends React.Component {
                   </a>{" "}
                   in Stockbridge and we have reserved all the rooms for both
                   Friday and Saturday night at{" "}
-                  <a href="https://g.page/GrosvenorHotelStockbridge?share">
+                  <a href="https://www.thegrosvenorstockbridge.com">
                     The Grosvenor Hotel
                   </a>{" "}
                   which is just down the road.
@@ -350,7 +350,7 @@ class Accomodation extends React.Component {
                 <div className="card-hero">
                   <a
                     target="grosvenor"
-                    href="http://thegreyhoundonthetest.co.uk?the-grosvenor-hotel"
+                    href="https://www.thegrosvenorstockbridge.com"
                   >
                     <Img fluid={data.grosvenor.childImageSharp.fluid} />
                   </a>
@@ -359,7 +359,7 @@ class Accomodation extends React.Component {
                   <h3>
                     <a
                       target="grosvenor"
-                      href="http://thegreyhoundonthetest.co.uk?the-grosvenor-hotel"
+                      href="https://www.thegrosvenorstockbridge.com"
                     >
                       The Grosvenor Hotel
                     </a>
