@@ -85,7 +85,7 @@ class Accomodation extends React.Component {
                   </a>{" "}
                   which is just down the road.
                 </p>
-                <p class="strong">
+                <p className="strong">
                   If you would like to book a room at The Grosvenor Hotel please
                   call Hayley at The Greyhound on:{" "}
                   <a href="tel:+441264810833">01264 810 833</a>

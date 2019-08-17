@@ -23,7 +23,7 @@ class Footer extends React.Component {
           <footer>
             <p>
               <a href="#top">
-                <img src={Up} width="75" />
+                <img src={Up} width="75" alt="Upwards facing arrow" />
               </a>
               <br />
               <a href="#top">Back to top</a>

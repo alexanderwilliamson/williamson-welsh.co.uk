@@ -25,7 +25,7 @@ class Carousel extends React.Component {
   }
 
   handleTimeout = () => {
-    if (this.state.playing == true) {
+    if (this.state.playing === true) {
       this.next()
     }
     setTimeout(() => {
@@ -68,7 +68,6 @@ class Carousel extends React.Component {
   }
 
   render() {
-    console.info("render")
     const { imageName, playing } = this.state
     const { change, images, toggleSlideshow } = this
     const items = images.map(function(item, key) {
@@ -92,8 +91,11 @@ class Carousel extends React.Component {
         <div className="slideshow">
           <div className="slideshow-main-image">
             <div className="slideshow-controls">
-              <button onClick={toggleSlideshow}>
-                <img src={slideshowButtonImage} />
+              <button onClick={toggleSlideshow} aria-label="Toggle Slideshow">
+                <img
+                  src={slideshowButtonImage}
+                  alt={playing ? "Pause slideshow" : "Play slideshow"}
+                />
               </button>
             </div>
             <Image
