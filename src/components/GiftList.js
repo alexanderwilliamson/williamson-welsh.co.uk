@@ -27,20 +27,17 @@ class GiftList extends React.Component {
                 </div>{" "}
                 <h1>Gift List</h1>
                 <p>
-                  Having you at our wedding is the most important thing to us so
-                  please don’t feel like you need to get us a gift!
-                </p>
-                <p>
-                  However, if you’d really like to get us something, we’ve
-                  pulled together a selection of gifts and experiences to help
-                  you choose.
+                  The biggest gift to us is your attendance at our wedding. We
+                  don’t expect or need gifts. That being said, to make it easier
+                  for those of you who have asked we have set up a gift list
+                  with both gifts and contributions to our honeymoon.
                 </p>
                 <p className="button-container">
                   <a
                     className="gift-list"
                     href="https://www.weddingshop.com/Buy/View/63578"
                     title="Alex and Jess' Gift List"
-                    target="gift-list"
+                    target="giftList"
                   >
                     View our gift list
                   </a>

@@ -69,7 +69,7 @@ class Navigation extends React.Component {
                   query {
                     file(relativePath: { eq: "gold-monogram.png" }) {
                       childImageSharp {
-                        fixed(height: 80, quality: 95) {
+                        fixed(height: 80, quality: 99) {
                           ...GatsbyImageSharpFixed_withWebp_tracedSVG
                         }
                       }

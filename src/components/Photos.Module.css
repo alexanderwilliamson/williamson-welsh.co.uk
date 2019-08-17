@@ -1,3 +1,23 @@
 #photos p {
   text-align: center;
 }
+
+#photos .button-container {
+  line-height: 200%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#photos a {
+  text-transform: uppercase;
+  color: white !important;
+  background-color: rgba(116, 181, 96, 0.8);
+  border-radius: 4px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#photos a:hover {
+  background-color: rgba(116, 181, 96);
+}

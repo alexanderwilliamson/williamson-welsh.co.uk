@@ -31,7 +31,7 @@ const BackgroundSection = ({ className }) => (
               <h1>Transport</h1>
               <p>
                 Please arrange your own transport between the church and
-                Houghton Lodge Gardens.
+                reception venue.
               </p>
               <p>
                 We will be providing a bus from Houghton Lodge Gardens to
@@ -39,17 +39,20 @@ const BackgroundSection = ({ className }) => (
                 us know if you would like to reserve a seat.
               </p>
               <p>
-                There will be secure parking at Houghton Lodge Gardens and all
-                cars left overnight will need to be collected by 10.30am on
+                You’re very welcome to leave your car at the venue overnight but
+                please keep in mind it will need to be collected by 10.30am on
                 Sunday.
               </p>
               <p>
-                We will have a car on call throughout the afternoon/evening if
-                you are drinking but need a lift back to your hotel in
-                Stockbridge for any reason. Please ask the Best Men to contact
-                them (details will be on the order of service). Although it is
-                only about a mile between Houghton Lodge and Stockbridge, it is
-                not safe to walk.
+                We will have a car on call throughout the afternoon and evening
+                if you are drinking and need a lift back Stockbridge for any
+                reason. The Ushers will be oraganising this and their contact
+                details will be on the order of service.
+              </p>
+              <p>
+                The road between Houghton Lodge and Stockbridge is not safe to
+                walk as it is a de-restricted narrow country lane with no
+                pavements.
               </p>
               <p>
                 If you would like to organise your own taxi, here are some local

@@ -26,14 +26,14 @@ class Accomodation extends React.Component {
             church: file(relativePath: { eq: "church.png" }) {
               childImageSharp {
                 fixed(quality: 90, width: 30) {
-                  ...GatsbyImageSharpFixed_withWebp_tracedSVG
+                  ...GatsbyImageSharpFixed_tracedSVG
                 }
               }
             }
             cocktails: file(relativePath: { eq: "cocktails.png" }) {
               childImageSharp {
                 fixed(quality: 90, width: 30) {
-                  ...GatsbyImageSharpFixed_withWebp_tracedSVG
+                  ...GatsbyImageSharpFixed_tracedSVG
                 }
               }
             }
@@ -85,13 +85,13 @@ class Accomodation extends React.Component {
                   </a>{" "}
                   which is just down the road.
                 </p>
-                <p>
+                <p class="strong">
                   If you would like to book a room at The Grosvenor Hotel please
                   call Hayley at The Greyhound on:{" "}
                   <a href="tel:+441264810833">01264 810 833</a>
                 </p>
                 <p>
-                  The weekend of our wedding is also{" "}
+                  The weekend of our wedding is also the{" "}
                   <a href="https://hatfair.co.uk">Winchester Hat Fair</a> so the
                   city will be busy and accommodation will get booked up
                   quickly. If you want to stay in Winchester on Friday night
@@ -105,6 +105,11 @@ class Accomodation extends React.Component {
             </div>
             <hr />
             <h2>Winchester</h2>
+            <p>
+              If you are staying on Friday night and would like to experience
+              Winchester Hat Fair, here are some accommodation options. You’ll
+              also be close to the church for the ceremony on Saturday morning.
+            </p>
             <div className="cards">
               <div className="card hotel">
                 <div className="card-hero">
@@ -126,10 +131,10 @@ class Accomodation extends React.Component {
                   </h3>
                   <p className="price">From &pound;30 per night</p>
                   <p>
-                    This opened in summer 2019 and is on the high street so it’s
-                    a good base to explore the city. Please note it does not
-                    have parking so you will have to pay for a local pay and
-                    display car park (free between 6pm - 8am).
+                    Winchester Travelodge opened in summer 2019 and is on the
+                    high street so it’s a good base to explore the city. Please
+                    note it does not have parking so you will have to pay for a
+                    local pay and display car park (free between 6pm - 8am).
                   </p>
                 </div>
                 <div className="card-footer">
@@ -169,10 +174,10 @@ class Accomodation extends React.Component {
                   </h3>
                   <p className="price">From &pound;80 per night</p>
                   <p>
-                    This is just behind the Travelodge, right next to the
-                    Cathedral and is another option if you want to be in the
-                    center of the city. It has parking which you will need to
-                    pay for.
+                    The Wessex Hotel is just behind the Travelodge, right next
+                    to the Cathedral and is another option if you want to be in
+                    the center of the city. It has parking which you will need
+                    to pay for.
                   </p>
                 </div>
                 <div className="card-footer">
@@ -212,8 +217,9 @@ class Accomodation extends React.Component {
                   </h3>
                   <p className="price">From &pound;140 per night</p>
                   <p>
-                    This is a little more upmarket but quite dated. It is at the
-                    top of the high street and is a central option with parking.
+                    The Winchester Royal Hotel is a more traditional hotel. It
+                    is at the top of the high street and is a central option
+                    with parking.{" "}
                   </p>
                 </div>
                 <div className="card-footer">
@@ -255,9 +261,10 @@ class Accomodation extends React.Component {
                   </h3>
                   <p className="price">From &pound;150 per night</p>
                   <p>
-                    This is near the train station on the outskirts of town. It
-                    has ample parking and will take you about 15 minutes to walk
-                    into the city centre from here.
+                    The Winchester Hotel and Spa is near the train station on
+                    the outskirts of the city. It has ample parking and will
+                    take you about 15 minutes to walk into the city center from
+                    here.
                   </p>
                 </div>
                 <div className="card-footer">
@@ -297,9 +304,10 @@ class Accomodation extends React.Component {
                   </h3>
                   <p className="price">From &pound;60 per night</p>
                   <p>
-                    This has been open a few years and has good reviews! It’s on
-                    the outskirts of town with free parking. It will take you
-                    about 20 minutes to walk into the city centre.
+                    The Premier Inn has been open a few years and we have heard
+                    good things! It’s on the outskirts of Winchester with free
+                    parking. It will take you about 20 minutes to walk into the
+                    city centre.
                   </p>
                 </div>
                 <div className="card-footer">
@@ -323,15 +331,54 @@ class Accomodation extends React.Component {
                 <div className="card-content">
                   <h3>Other options</h3>
                   <p>
-                    There is also a Hotel du Vin and some great pubs with rooms
-                    if you are after something a little more individual!
+                    There is also a{" "}
+                    <a
+                      href="https://www.hotelduvin.com/locations/winchester"
+                      title="Hotel du Vin Winchester"
+                      target="hotelDuVinWinchester"
+                    >
+                      Hotel du Vin
+                    </a>{" "}
+                    and some great pubs with rooms if you are after something a
+                    little more individual! Here are a few of our favourites:
                   </p>
-                  <p>Here are a few of our favourites:</p>
                   <ul>
-                    <li>Number 5 Bridge Street</li>
-                    <li>The Black Hole</li>
-                    <li>The Westgate</li>
-                    <li>The Wykeham Arms</li>
+                    <li>
+                      <a
+                        href="https://www.bridgestreethouse.co.uk"
+                        title="Number 5 Bridge Street"
+                        target="number5"
+                      >
+                        Number 5 Bridge Street
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.theblackholebb.co.uk"
+                        title="The Black Hole"
+                        target="theBlackHole"
+                      >
+                        The Black Hole
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.westgatewinchester.com/rooms"
+                        target="theWestgate"
+                        title="The Westgate Hotel"
+                      >
+                        The Westgate
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.wykehamarmswinchester.co.uk"
+                        title="The Wykeham Arms Hotel"
+                        target="theWykehamArmsHotel"
+                      >
+                        The Wykeham Arms
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -366,10 +413,12 @@ class Accomodation extends React.Component {
                   </h3>
                   <p className="price">From &pound;100 per night (28 rooms)</p>
                   <p>
-                    We have reserved all rooms here on both Friday and Saturday
-                    night. The entire hotel has recently been renovated and it
-                    is a 2 minute walk from The Greyhound on The Test. It also
-                    has free parking.
+                    We have reserved all of the rooms at The Grosvenor Hotel on
+                    both Friday and Saturday night. The entire hotel has
+                    recently been renovated and it is a 2 minute walk from The
+                    Greyhound on The Test. It also has free parking. We will pop
+                    into the Grosvenor hotel for a drink on Friday evening
+                    before retiring for the night.
                   </p>
                   <p>
                     To book, please call Hayley on{" "}
@@ -413,9 +462,9 @@ class Accomodation extends React.Component {
                   </h3>
                   <p className="price">From &pound;100 per night (14 rooms)</p>
                   <p>
-                    This is a nice modern pub with quality fitted bedrooms and
-                    free parking. It is the opposite end of the high street with
-                    a 10 minute walk from The Greyhound on The Test.
+                    The White Hart Inn is a quality modern pub with free
+                    parking. It is the opposite end of the high street from The
+                    Greyhound on The Test but only about a 7 minute walk.
                   </p>
                 </div>
                 <div className="card-footer">
@@ -449,8 +498,8 @@ class Accomodation extends React.Component {
                   </h3>
                   <p className="price">From &pound;100 per night (14 rooms)</p>
                   <p>
-                    This pub is opposite The Greyhound on the Test and is a
-                    little older but a charming option.
+                    The Three Cups is the pub opposite The Greyhound on the
+                    Test. It is a little older but a charming option.
                   </p>
                 </div>
                 <div className="card-footer">

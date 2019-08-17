@@ -36,6 +36,14 @@ address a:active {
   padding-left: 30px;
 }
 
+#our-day h2 {
+  font-size: 16px;
+  line-height: 18px;
+  padding: 0;
+  margin: 0px;
+  text-align: left;
+}
+
 @media screen and (max-width: 799px) {
   .our-day-flexbox {
     display: block;
@@ -50,13 +58,6 @@ address a:active {
   #our-day h2,
   #our-day h3 {
     text-align: left;
-  }
-
-  #our-day h2 {
-    font-size: 16px;
-    line-height: 18px;
-    padding: 0;
-    margin: 0px;
   }
 
   #our-day h3 {
@@ -80,17 +81,17 @@ address a:active {
 }
 
 @media screen and (min-width: 800px) {
-  .timeline {
+  #our-day .timeline {
     position: relative;
     height: 100%;
   }
 
-  .timeline-section {
+  #our-day .timeline-section {
     position: relative;
   }
 
-  .timeline-section h2,
-  .timeline-section h3 {
+  #our-day .timeline-section h2,
+  #our-day .timeline-section h3 {
     font-size: 24px;
     line-height: 40px;
     margin: 0px;
@@ -98,30 +99,30 @@ address a:active {
     text-align: left;
   }
 
-  .timeline h2 {
+  #our-day .timeline h2 {
     font-size: 16px;
     text-align: right;
     width: 200px;
   }
 
-  .timeline h3 {
+  #our-day .timeline h3 {
     font-size: 24px;
     color: rgba(116, 181, 96, 0.8);
     text-transform: uppercase;
   }
 
-  .timeline-section ul {
+  #our-day .timeline-section ul {
     margin-top: -0px;
   }
 
-  .timeline ul {
+  #our-day .timeline ul {
     padding: 0px 0px 20px 40px;
     margin: -40px 0px 0px 200px;
     list-style: none;
     position: relative;
   }
 
-  .timeline-section ul::after {
+  #our-day .timeline-section ul::after {
     content: "";
     width: 10px;
     height: 10px;
@@ -133,7 +134,7 @@ address a:active {
     z-index: 2;
   }
 
-  .timeline-section:not(:last-child) ul::before {
+  #our-day .timeline-section:not(:last-child) ul::before {
     content: "";
     width: 2px;
     height: calc(100% - 27px);

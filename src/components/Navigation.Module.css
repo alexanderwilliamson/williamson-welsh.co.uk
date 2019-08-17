@@ -18,8 +18,19 @@ nav div.hamburger {
   position: fixed;
   top: 10px;
   right: 10px;
-  height: 2em;
-  width: 2em;
+  width: 32px;
+  height: 32px;
+  background-color: rgba(249, 249, 249, 0.8);
+  border-radius: 16px;
+}
+
+nav div.hamburger img {
+  margin: auto auto auto auto;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 4px;
+  top: 4px;
 }
 
 nav ul {

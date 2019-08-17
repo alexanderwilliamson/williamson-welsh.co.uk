@@ -13,7 +13,7 @@ class Hero extends React.Component {
           <p>Saturday 4th July 2020</p>
         </div>
         <p className="rsvp-container">
-          <a title="RSVP" href="https://forms.gle/5BkGPZpdp1tx8wZa8">
+          <a title="rsvp" href="https://forms.gle/5BkGPZpdp1tx8wZa8">
             RSVP
           </a>
         </p>
