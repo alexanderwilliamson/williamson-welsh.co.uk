@@ -22,7 +22,7 @@ module.exports = {
         name: "Alex and Jess",
         short_name: "Alex and Jess",
         start_url: "/",
-        background_color: "#74b560",
+        background_color: "#8c8c8c",
         theme_color: "#74b560",
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
