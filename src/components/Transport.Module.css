@@ -9,7 +9,7 @@ section#transport {
 }
 
 .transport-outer {
-  padding: 25px;
+  padding: 50px;
   background-size: cover;
 }
 
@@ -39,5 +39,10 @@ section#transport {
 
   .taxi:not(:last-child) {
     margin-bottom: 50px;
+  }
+
+  .transport-outer {
+    padding: 25px;
+    background-size: cover;
   }
 }
