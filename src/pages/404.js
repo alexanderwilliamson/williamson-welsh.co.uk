@@ -3,14 +3,11 @@ import NotFound from "../images/404.gif"
 
 class FourOhFour extends React.Component {
   render() {
-    const beans = {
-      color: "red",
-    }
     return (
       <>
         <p style={{ textAlign: `center` }}>404 Not Found. Looking for this?</p>
         <p style={{ textAlign: `center` }}>
-          <img src={NotFound} />
+          <img alt="Alex moving a sparking leopard ornament" src={NotFound} />
         </p>
       </>
     )
