@@ -11,7 +11,7 @@ class Navigation extends React.Component {
     this.state = {
       lastOffset: 0,
       scrollingUpwards: false,
-      opened: false,
+      toggled: false,
     }
   }
 
@@ -26,8 +26,7 @@ class Navigation extends React.Component {
   toggle = () => {
     this.setState(prevState => ({
       ...prevState,
-      scrollingUpwards: this.state.scrollingUpwards,
-      opened: !this.state.opened,
+      toggled: !this.state.toggled,
     }))
   }
 
@@ -47,30 +46,36 @@ class Navigation extends React.Component {
     setTimeout(() => {
       this.setState(prevState => ({
         ...prevState,
+        toggled: false,
         scrollingUpwards: false,
-        opened: false,
       }))
-    }, 500)
+    }, 70)
   }
 
   getClass = () => {
-    let className = this.state.scrollingUpwards ? "scrollingUpwards" : ""
-    className += this.state.opened ? " opened" : ""
-    return className
+    var value = this.state.toggled ? "toggled-open" : "toggled-closed"
+    value += this.state.scrollingUpwards ? " scrollingUpwards" : ""
+    return value
   }
 
   getHamburgerImage = () => {
-    return this.state.opened ? Close : Menu
+    return this.state.toggled ? Close : Menu
   }
 
   render() {
     const { getHamburgerImage, getClass, hide } = this
     return (
-      <nav>
+      <nav className={getClass()}>
         <div className="hamburger">
-          <img alt="Menu" src={getHamburgerImage()} onClick={this.toggle} />
+          <img
+            alt="Menu"
+            src={getHamburgerImage()}
+            onClick={this.toggle}
+            width="32"
+            height="32"
+          />
         </div>
-        <ul className={getClass()}>
+        <ul>
           <li>
             <a href="#top" onClick={hide} title="Jump to top of page">
               <StaticQuery
@@ -114,7 +119,7 @@ class Navigation extends React.Component {
               Photos
             </a>
           </li>
-          <li>
+          <li className="button-container">
             <a
               href="https://forms.gle/5BkGPZpdp1tx8wZa8"
               title="Respond to our RSVP"

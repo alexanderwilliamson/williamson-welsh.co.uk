@@ -22,6 +22,10 @@
   outline: none;
 }
 
+.slideshow-thumbnails {
+  text-align: center;
+}
+
 .thumbnail-image {
   width: 30px;
   height: 30px;

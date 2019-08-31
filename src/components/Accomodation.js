@@ -75,12 +75,18 @@ class Accomodation extends React.Component {
                 <p>
                   There are numerous options in and around Stockbridge and
                   Winchester. The bridal party will be staying at{" "}
-                  <a href="http://thegreyhoundonthetest.co.uk">
+                  <a
+                    href="http://thegreyhoundonthetest.co.uk"
+                    target="greyhound"
+                  >
                     The Greyhound on The Test
                   </a>{" "}
                   in Stockbridge and we have reserved all the rooms for both
                   Friday and Saturday night at{" "}
-                  <a href="https://www.thegrosvenorstockbridge.com">
+                  <a
+                    href="https://www.thegrosvenorstockbridge.com"
+                    target="grosvenor"
+                  >
                     The Grosvenor Hotel
                   </a>{" "}
                   which is just down the road.
@@ -88,12 +94,16 @@ class Accomodation extends React.Component {
                 <p className="strong">
                   If you would like to book a room at The Grosvenor Hotel please
                   call Hayley at The Greyhound on:{" "}
-                  <a href="tel:+441264810833">01264 810 833</a>
+                  <a target="phone" href="tel:+441264810833">
+                    01264 810 833
+                  </a>
                 </p>
                 <p>
                   The weekend of our wedding is also the{" "}
-                  <a href="https://hatfair.co.uk">Winchester Hat Fair</a> so the
-                  city will be busy and accommodation will get booked up
+                  <a href="https://hatfair.co.uk" title="hatFair">
+                    Winchester Hat Fair
+                  </a>{" "}
+                  so the city will be busy and accommodation will get booked up
                   quickly. If you want to stay in Winchester on Friday night
                   there will be an amazing atmosphere with music and street
                   performers!
@@ -420,9 +430,11 @@ class Accomodation extends React.Component {
                     into the Grosvenor hotel for a drink on Friday evening
                     before retiring for the night.
                   </p>
-                  <p>
+                  <p className="strong">
                     To book, please call Hayley on{" "}
-                    <a href="tel:+441264810833">01264 810833</a>
+                    <a target="phone" href="tel:+441264810833">
+                      01264 810833
+                    </a>
                   </p>
                 </div>
                 <div className="card-footer">
@@ -496,7 +508,7 @@ class Accomodation extends React.Component {
                       The Three Cups
                     </a>
                   </h3>
-                  <p className="price">From &pound;100 per night (14 rooms)</p>
+                  <p className="price">From &pound;100 per night (8 rooms)</p>
                   <p>
                     The Three Cups is the pub opposite The Greyhound on the
                     Test. It is a little older but a charming option.
@@ -508,13 +520,13 @@ class Accomodation extends React.Component {
                       <span className="icon">
                         <Img fixed={data.church.childImageSharp.fixed} />
                       </span>{" "}
-                      2.3 miles
+                      10.8 miles
                     </li>
                     <li>
                       <span className="icon">
                         <Img fixed={data.cocktails.childImageSharp.fixed} />
                       </span>{" "}
-                      14.1 miles
+                      1.6 miles
                     </li>
                   </ul>
                 </div>
