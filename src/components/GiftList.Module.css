@@ -8,27 +8,14 @@ section#gift-list {
   text-align: center;
 }
 
-#gift-list a {
-  text-transform: uppercase;
-  color: white !important;
-  background-color: rgba(116, 181, 96, 0.8);
-  border-radius: 4px;
-  padding: 10px;
-  text-decoration: none;
-}
-
-#gift-list a:hover {
-  background-color: rgba(116, 181, 96);
-}
-
 .gift-list-outer {
-  padding: 25px;
+  padding: 40px;
   background: #27363d url("../images/blackground.jpg");
   background-size: 100% 100%;
 }
 
 .gift-list-inner {
-  padding: 20px;
+  padding: 50px;
   background-color: white;
   padding: 10px 40px 40px 40px;
   text-align: center;
@@ -42,4 +29,10 @@ section#gift-list {
   height: 50px;
   text-align: center;
   width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .gift-list-outer {
+    padding: 25px !important;
+  }
 }
