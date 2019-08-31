@@ -24,11 +24,11 @@ class Navigation extends React.Component {
   }
 
   toggle = () => {
-    this.setState({
-      lastOffset: window.pageYOffset,
+    this.setState(prevState => ({
+      ...prevState,
       scrollingUpwards: this.state.scrollingUpwards,
       opened: !this.state.opened,
-    })
+    }))
   }
 
   handleScroll = () => {
@@ -36,32 +36,41 @@ class Navigation extends React.Component {
     const currentScrollPos = window.pageYOffset
     const scrollingUpwards =
       window.pageYOffset > 0 && lastOffset > currentScrollPos
-    this.setState({
+    this.setState(prevState => ({
+      ...prevState,
       lastOffset: currentScrollPos,
       scrollingUpwards: scrollingUpwards,
-      opened: this.state.opened,
-    })
+    }))
   }
 
   hide = () => {
-    this.setState({
-      lastOffset: window.pageYOffset,
-      scrollingUpwards: false,
-      opened: false,
-    })
+    setTimeout(() => {
+      this.setState(prevState => ({
+        ...prevState,
+        scrollingUpwards: false,
+        opened: false,
+      }))
+    }, 500)
+  }
+
+  getClass = () => {
+    let className = this.state.scrollingUpwards ? "scrollingUpwards" : ""
+    className += this.state.opened ? " opened" : ""
+    return className
+  }
+
+  getHamburgerImage = () => {
+    return this.state.opened ? Close : Menu
   }
 
   render() {
-    const hamburgerImage = this.state.opened ? Close : Menu
-    var className = this.state.scrollingUpwards ? "scrollingUpwards" : ""
-    className += this.state.opened ? " opened" : ""
-    const { hide } = this
+    const { getHamburgerImage, getClass, hide } = this
     return (
       <nav>
         <div className="hamburger">
-          <img alt="Menu" src={hamburgerImage} onClick={this.toggle} />
+          <img alt="Menu" src={getHamburgerImage()} onClick={this.toggle} />
         </div>
-        <ul className={className}>
+        <ul className={getClass()}>
           <li>
             <a href="#top" onClick={hide} title="Jump to top of page">
               <StaticQuery
@@ -101,7 +110,7 @@ class Navigation extends React.Component {
             </a>
           </li>
           <li>
-            <a href="#gift-list" onClick={hide} title="Jump to Gift List">
+            <a href="#photos" onClick={hide} title="Jump to Gift List">
               Photos
             </a>
           </li>
