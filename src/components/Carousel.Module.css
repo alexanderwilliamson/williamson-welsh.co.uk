@@ -32,6 +32,7 @@
   border: 5px solid white;
   display: inline-block;
   margin: 5px 5px 5px 0;
+  cursor: pointer;
 }
 
 .thumbnail-active {
