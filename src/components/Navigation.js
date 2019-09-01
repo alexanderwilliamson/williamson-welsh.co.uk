@@ -67,13 +67,9 @@ class Navigation extends React.Component {
     return (
       <nav className={getClass()}>
         <div className="hamburger">
-          <img
-            alt="Menu"
-            src={getHamburgerImage()}
-            onClick={this.toggle}
-            width="32"
-            height="32"
-          />
+          <button onClick={this.toggle}>
+            <img alt="Menu" src={getHamburgerImage()} width="32" height="32" />
+          </button>
         </div>
         <ul>
           <li>

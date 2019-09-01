@@ -84,6 +84,12 @@ img.gold-monogram {
     z-index: 100;
     width: 100%;
     height: 100%;
+    pointer-events: none;
+    background: transparent;
+  }
+
+  nav > * {
+    pointer-events: initial;
   }
 
   nav ul {
@@ -107,7 +113,16 @@ img.gold-monogram {
     top: 20px;
     right: 20px;
     z-index: 101;
-    cursor: pointer;
+  }
+
+  nav button {
+    border: none;
+    background-color: white;
+    outline: none;
+  }
+
+  nav button:focus {
+    border: none;
   }
 
   nav.toggled-open ul {
