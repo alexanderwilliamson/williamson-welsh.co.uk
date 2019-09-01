@@ -1,7 +1,7 @@
 import React from "react"
 import "./Navigation.Module.css"
 import { StaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import Img from "gatsby-image/withIEPolyfill"
 import Close from "../images/twotone-close-24px.svg"
 import Menu from "../images/twotone-menu-24px.svg"
 

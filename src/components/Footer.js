@@ -1,6 +1,6 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import Img from "gatsby-image/withIEPolyfill"
 import Up from "../images/baseline-arrow_upward-24px.svg"
 import "./Footer.Module.css"
 
