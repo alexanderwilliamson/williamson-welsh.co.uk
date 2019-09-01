@@ -12,7 +12,7 @@ class GiftList extends React.Component {
             file(relativePath: { eq: "gift-list-flowers.png" }) {
               childImageSharp {
                 fixed(height: 200) {
-                  ...GatsbyImageSharpFixed_withWebp_tracedSVG
+                  ...GatsbyImageSharpFixed_tracedSVG
                 }
               }
             }

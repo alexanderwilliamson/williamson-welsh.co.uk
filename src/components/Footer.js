@@ -13,7 +13,7 @@ class Footer extends React.Component {
             footer: file(relativePath: { eq: "footer.png" }) {
               childImageSharp {
                 fluid(maxWidth: 655, quality: 90) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                  ...GatsbyImageSharpFluid_tracedSVG
                 }
               }
             }
