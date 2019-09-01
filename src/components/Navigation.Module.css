@@ -104,7 +104,7 @@ img.gold-monogram {
   }
 
   .push-right {
-    margin-left: initial;
+    margin-left: inherit;
   }
 
   nav div.hamburger {
