@@ -9,13 +9,13 @@ class Carousel extends React.Component {
     super(props)
     this.images = [
       "photo",
-      "zoom",
-      "boat",
+      "ring",
       "lounge",
       "booth",
       "champagne",
-      "beauty",
       "airport",
+      "wind",
+      "boat",
     ]
     this.state = {
       playing: true,
@@ -41,8 +41,9 @@ class Carousel extends React.Component {
   }
 
   componentDidMount() {
-    this.handleTimeout()
-    this.next()
+    setTimeout(() => {
+      this.handleTimeout()
+    }, this.state.duration)
   }
 
   getRandomInteger = (min, max) => {
