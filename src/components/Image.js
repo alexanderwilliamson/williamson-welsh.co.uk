@@ -13,9 +13,6 @@ const Image = ({ imageName, fluidOrFixed }) => {
     }
 
     query {
-      zoom: file(relativePath: { eq: "zoom.jpg" }) {
-        ...servicesImage
-      }
       wind: file(relativePath: { eq: "wind.jpg" }) {
         ...servicesImage
       }
@@ -34,10 +31,10 @@ const Image = ({ imageName, fluidOrFixed }) => {
       airport: file(relativePath: { eq: "airport.jpg" }) {
         ...servicesImage
       }
-      beauty: file(relativePath: { eq: "beauty.jpg" }) {
+      champagne: file(relativePath: { eq: "champagne.jpg" }) {
         ...servicesImage
       }
-      champagne: file(relativePath: { eq: "champagne.jpg" }) {
+      ring: file(relativePath: { eq: "ring.jpg" }) {
         ...servicesImage
       }
     }
