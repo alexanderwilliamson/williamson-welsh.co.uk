@@ -15,7 +15,7 @@ class OurDay extends React.Component {
                   file(relativePath: { eq: "our-day-flowers.png" }) {
                     childImageSharp {
                       fluid(maxWidth: 300) {
-                        ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                        ...GatsbyImageSharpFluid_tracedSVG
                       }
                     }
                   }
@@ -26,42 +26,47 @@ class OurDay extends React.Component {
           </div>
           <div className="our-day-pull-right">
             <h1>Our Day</h1>
+            <p>We can’t wait to see you on our wedding day!</p>
             <p>
-              We can’t wait to see you on our wedding day! Here are some details
-              to help you plan:
+              Our ceremony and reception are in different places so we have
+              pulled together some information to help you make arrangements:
             </p>
             <ul>
               <li>
-                Our day will start at the church in Winchester followed by the
-                reception in Stockbridge which is about a 25 minute drive away.
-                Please plan to make your own way between the two venues.
+                There is about a 25 minute drive between the church and the
+                reception venue where we will spend the rest of the day.
               </li>
               <li>
-                If you have children, you will need to know there's a deep river
-                next to the marquee with no barrier. There are family children
-                at the wedding and babes in arms are welcome, but please keep in
-                mind the attention needed if you would like your children with
-                you.
+                Please plan to make your own way between the two venues. You can
+                leave your car overnight at the reception venue and there will
+                be transport provided into the local town of Stockbridge at
+                midnight.
+              </li>
+              <li>
+                If you have children, you'll want to know that there is a deep
+                river next to the marquee with no barrier. There will be family
+                children at the wedding and babes in arms are welcome.
+              </li>
+              <li>
+                On the Friday night we will pop into the Grosvenor Hotel in
+                Stockbridge for a drink in the bar around 8pm if you are staying
+                locally and wanted to say hi!
               </li>
             </ul>
             <h2>What to wear</h2>
-            <p>
-              For those of you who are unsure what to wear, our wedding will be
-              formal with a tropical twist, so please feel free to wear linen
-              suits or maxi dresses.
-            </p>
+            <p className="italic">Summer formal</p>
             <p>
               There is uneven ground and grass at both the church and evening
               venue so please bear this in mind when choosing footwear.
             </p>
             <h2>What to bring</h2>
-            <p>
+            <p className="italic">
               We’d love it if you could please bring a coconut with you to the
               reception!
             </p>
             <p>
-              Our evening reception will also be under canvas so please bring
-              warm clothing and wet weather gear if needed!
+              Our evening reception will also be under canvas so bring warm
+              clothing and wet weather gear if needed.
             </p>
           </div>
         </div>
@@ -85,17 +90,17 @@ class OurDay extends React.Component {
                 <p>
                   Please be seated 15 minutes prior to the ceremony time of 1
                   o’clock. Alex and the best men will be at the church from half
-                  past 12 for any early arrivals!
+                  past 12 for any early arrivals.
                 </p>
                 <p>
                   There is plenty of parking on the field beside the church and
                   this will be signposted from the main road. It’s worth having
-                  brunch/lunch before you arrive as the ceremony will be around
-                  1 hour long.
+                  brunch before you arrive as the ceremony will be around 1 hour
+                  long.
                 </p>
                 <p>
                   After the ceremony, please make your own way to the reception
-                  venue. You will drive through Stockbridge on your way if you
+                  venue. You will drive through Stockbridge on the way if you
                   wanted to stop by your accommodation to check in.
                 </p>
               </li>
@@ -117,15 +122,16 @@ class OurDay extends React.Component {
                 </address>
                 <p>
                   After the church ceremony, reception drinks will be served as
-                  we arrive at Houghton Lodge Gardens and this is where we will
-                  stay for the remainder of the day.
+                  we arrive at Houghton Lodge Gardens and we will stay there for
+                  the remainder of the day.
                 </p>
                 <p>
-                  There is allocated wedding parking which will be signposted
-                  from the main road and is located just beyond the main
-                  entrance to Houghton Lodge Gardens. If you would like to leave
-                  your car here overnight it will need to be collected by
-                  10.30am on Sunday.
+                  There will be allocated wedding parking signposted just beyond
+                  the main entrance to Houghton Lodge Gardens.
+                </p>
+                <p className="strong">
+                  You are welcome to leave your car overnight as long as it is
+                  collected by 10.30am on Sunday.
                 </p>
               </li>
             </ul>
@@ -151,12 +157,12 @@ class OurDay extends React.Component {
                   continue partying with us until 2am.
                 </p>
                 <p>
-                  There will be a bus which will do a few trips to The Greyhound
-                  on The Test from around midnight. If you are staying in
-                  Stockbridge please feel free to make the most of this as you
-                  will be able to walk to your accommodation even if you’re not
-                  able to keep dancing! Please let us know in your RSVP if you
-                  would like a seat on the bus!
+                  There will be a shuttle bus service to The Greyhound on The
+                  Test in Stockbridge from around midnight. If you book to stay
+                  in Stockbridge please feel free to make the most of this as
+                  you will be able to walk to your accommodation even if you’re
+                  not able to keep dancing! Please let us know in your RSVP if
+                  you would like to reserve a seat.
                 </p>
               </li>
             </ul>
@@ -177,10 +183,9 @@ class OurDay extends React.Component {
                   </a>
                 </address>
                 <p>
-                  We’d love you to join us in the Courtyard of The Greyhound on
-                  The Test for bacon butties and Bloody Marys before you head
-                  off on Sunday morning. We’ll plan to stay around until the
-                  last people leave!
+                  We’d love you to join us in the courtyard of The Greyhound on
+                  The Test before you head off on Sunday morning. We’ll plan to
+                  stay around until the last people leave!
                 </p>
               </li>
             </ul>

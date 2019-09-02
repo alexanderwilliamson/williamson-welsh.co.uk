@@ -30,31 +30,24 @@ const BackgroundSection = ({ className }) => (
             <div className="transport-inner">
               <h1>Transport</h1>
               <p>
-                Please arrange your own transport between the church and
+                Please arrange your own transport between the church and the
                 reception venue.
               </p>
               <p>
-                We will be providing a bus from Houghton Lodge Gardens to
-                Stockbridge at midnight. There is a section on our RSVP to let
-                us know if you would like to reserve a seat.
+                Around midnight we will provide a shuttle bus service from
+                Houghton Lodge Gardens to Stockbridge. If you would like to
+                reserve a seat, please let us know on your R.S.V.P.
               </p>
               <p>
-                You’re very welcome to leave your car at the venue overnight but
-                please keep in mind it will need to be collected by 10.30am on
-                Sunday.
+                You are very welcome to leave your car at Houghton Lodge Gardens
+                overnight but keep in mind it will need to be collected by
+                10.30am on Sunday.
               </p>
               <p>
-                We will have a car on call throughout the afternoon and evening
-                if you are drinking and need a lift back Stockbridge for any
-                reason. The Ushers will be oraganising this and their contact
-                details will be on the order of service.
+                The road to Stockbridge is not safe to walk as it is a
+                derestricted country lane with no pavements or streetlights.
               </p>
-              <p>
-                The road between Houghton Lodge and Stockbridge is not safe to
-                walk as it is a de-restricted narrow country lane with no
-                pavements.
-              </p>
-              <p>
+              <p className="strong">
                 If you would like to organise your own taxi, here are some local
                 companies:
               </p>

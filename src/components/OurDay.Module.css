@@ -44,6 +44,10 @@ address a:active {
   text-align: left;
 }
 
+#our-day ul li:not(:last-child) {
+  padding-bottom: 1em;
+}
+
 @media screen and (max-width: 799px) {
   .our-day-flexbox {
     display: block;

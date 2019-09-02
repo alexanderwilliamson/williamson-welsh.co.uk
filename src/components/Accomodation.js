@@ -11,7 +11,7 @@ class Accomodation extends React.Component {
           fragment cardSettings on File {
             childImageSharp {
               fluid(maxWidth: 700, quality: 95, cropFocus: SOUTH) {
-                ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                ...GatsbyImageSharpFluid_tracedSVG
               }
             }
           }
@@ -19,7 +19,7 @@ class Accomodation extends React.Component {
             flowers: file(relativePath: { eq: "accomodation-flowers.png" }) {
               childImageSharp {
                 fluid(maxWidth: 300) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                  ...GatsbyImageSharpFluid_tracedSVG
                 }
               }
             }
@@ -99,14 +99,14 @@ class Accomodation extends React.Component {
                   </a>
                 </p>
                 <p>
-                  The weekend of our wedding is also the{" "}
+                  The weekend of our wedding will also be the{" "}
                   <a href="https://hatfair.co.uk" title="hatFair">
                     Winchester Hat Fair
-                  </a>{" "}
-                  so the city will be busy and accommodation will get booked up
-                  quickly. If you want to stay in Winchester on Friday night
-                  there will be an amazing atmosphere with music and street
-                  performers!
+                  </a>
+                  , so the city will be busy and accommodation will get booked
+                  up quickly. If you are planning on making a weekend of it and
+                  want to stay in Winchester on Friday night, there will be an
+                  amazing atmosphere with music and street performers!
                 </p>
               </div>
               <div className="accomodation-flowers">
@@ -116,9 +116,10 @@ class Accomodation extends React.Component {
             <hr />
             <h2>Winchester</h2>
             <p>
-              If you are staying on Friday night and would like to experience
-              Winchester Hat Fair, here are some accommodation options. You’ll
-              also be close to the church for the ceremony on Saturday morning.
+              If you want to stay the Friday night and would like to experience
+              Winchester Hat Fair, here are some accommodation options. Being in
+              Winchester will also mean you are closer to the church for the
+              ceremony on Saturday.
             </p>
             <div className="cards">
               <div className="card hotel">
@@ -400,7 +401,7 @@ class Accomodation extends React.Component {
               but there are also lots of B&amp;Bs that we haven’t listed.
               Anything along the high street will be walkable from The Greyhound
               on the Test if you are joining us for the after party or making
-              the most of our bus at the end of the night!
+              the most of our shuttle bus at the end of the night.
             </p>
             <div className="cards">
               <div className="card hotel">
@@ -424,8 +425,8 @@ class Accomodation extends React.Component {
                   <p className="price">From &pound;100 per night (28 rooms)</p>
                   <p>
                     We have reserved all of the rooms at The Grosvenor Hotel on
-                    both Friday and Saturday night. The entire hotel has
-                    recently been renovated and it is a 2 minute walk from The
+                    both Friday and Saturday night. The entire hotel has been
+                    recently renovated and it is a 2 minute walk from The
                     Greyhound on The Test. It also has free parking. We will pop
                     into the Grosvenor hotel for a drink on Friday evening
                     before retiring for the night.
