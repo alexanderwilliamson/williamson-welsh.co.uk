@@ -169,6 +169,10 @@ section {
   font-weight: bold;
 }
 
+.italic {
+  font-style: italic;
+}
+
 hr {
   display: block;
   height: 1px;
