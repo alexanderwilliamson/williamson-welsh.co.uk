@@ -161,8 +161,8 @@ class OurDay extends React.Component {
                   Test in Stockbridge from around midnight. If you book to stay
                   in Stockbridge please feel free to make the most of this as
                   you will be able to walk to your accommodation even if you’re
-                  not able to keep dancing! Please let us know in your RSVP if
-                  you would like to reserve a seat.
+                  not able to keep dancing! Please let us know in your R.S.V.P.
+                  if you would like to reserve a seat.
                 </p>
               </li>
             </ul>

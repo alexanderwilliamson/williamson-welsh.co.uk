@@ -122,7 +122,7 @@ class Navigation extends React.Component {
               target="rsvp"
               className="rsvp-button"
             >
-              RSVP
+              R.S.V.P.
             </a>
           </li>
         </ul>
