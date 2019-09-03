@@ -27,10 +27,13 @@ class GiftList extends React.Component {
                 </div>{" "}
                 <h1>Gift List</h1>
                 <p>
-                  The biggest gift to us is your attendance at our wedding. We
-                  don’t expect or need gifts. That being said, to make it easier
-                  for those of you who have asked we have set up a gift list
-                  with both gifts and contributions to our honeymoon.
+                  The biggest gift to us is your attendance at our wedding, so
+                  please don't feel that you need to get us a gift.
+                </p>
+                <p>
+                  For those of you who have asked, we have set up a gift list
+                  which includes both gifts and contributions towards our
+                  honeymoon.
                 </p>
                 <p className="button-container">
                   <a

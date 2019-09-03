@@ -397,11 +397,11 @@ class Accomodation extends React.Component {
             <hr />
             <h2>Stockbridge</h2>
             <p>
-              Stockbridge accommodation consists of mainly of pubs with rooms,
-              but there are also lots of B&amp;Bs that we haven’t listed.
-              Anything along the high street will be walkable from The Greyhound
-              on the Test if you are joining us for the after party or making
-              the most of our shuttle bus at the end of the night.
+              Stockbridge accommodation consists of mainly pubs with rooms, but
+              there are also lots of B&amp;Bs that we haven’t listed. Anything
+              along the high street will be walkable from The Greyhound on the
+              Test if you are joining us for the after party or making the most
+              of our shuttle bus at the end of the night.
             </p>
             <div className="cards">
               <div className="card hotel">
