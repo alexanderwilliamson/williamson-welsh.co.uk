@@ -8,6 +8,19 @@ section#gift-list {
   text-align: center;
 }
 
+#gift-list .button-container a {
+  text-transform: uppercase;
+  color: white !important;
+  background-color: rgba(116, 181, 96, 0.8);
+  border-radius: 4px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#gift-list .button-container a:hover {
+  background-color: rgba(116, 181, 96);
+}
+
 .gift-list-outer {
   padding: 40px;
   background: #27363d url("../images/blackground.jpg");
