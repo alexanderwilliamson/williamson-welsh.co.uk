@@ -43,9 +43,9 @@ class OurDay extends React.Component {
                 midnight.
               </li>
               <li>
-                If you have children, you'll want to know that there is a deep
-                river next to the marquee with no barrier. There will be family
-                children at the wedding and babes in arms are welcome.
+                If you have children, it's important to know that there is a
+                river with no fencing near the marquee that determined and
+                unsupervised children may be tempted to explore.
               </li>
               <li>
                 On the Friday night we will pop into the Grosvenor Hotel in
@@ -54,7 +54,14 @@ class OurDay extends React.Component {
               </li>
             </ul>
             <h2>What to wear</h2>
-            <p className="italic">Summer formal</p>
+            <p className="italic">
+              <a
+                href="https://www.pinterest.co.uk/fudgewesby/summer-formal/"
+                target="summerformal"
+              >
+                Summer formal
+              </a>
+            </p>
             <p>
               There is uneven ground and grass at both the church and evening
               venue so please bear this in mind when choosing footwear.
